@@ -4,18 +4,18 @@ use ieee.numeric_std.all;
 use ieee.STD_LOGIC_UNSIGNED.all;
 
 entity division is
-	generic (N:integer := 4);
+	generic (N:integer := 5);
 	port (CLK, RST_N, START :in std_logic;
 			A,B :in std_logic_vector(N-1 downto 0):= (others => '0');
-			Q,R :out std_logic_vector(N-1 downto 0):= (others => '0');
+			Q,R :out std_logic_vector(2*N-1 downto 0):= (others => '0');
 			DONE:out std_logic := '0');
-end division;
+	end division;
 	
 architecture data_flow of division is
-	type state_type is (S0,S1,S2); 
+	type state_type is (S0,S1,S2);
 	signal Data_A :std_logic_vector(2*N-1 downto 0):=(others => '0');
 	signal Data_B :std_logic_vector(2*N-1 downto 0):=(others => '0');
-	signal Data_Quotient :std_logic_vector(N-1 downto 0):=(others => '0');
+	signal Data_Quotient :std_logic_vector(2*N-1 downto 0):=(others => '0');
 	signal Data_Remainder :std_logic_vector(2*N-1 downto 0):=(others => '0');
 	signal bit_counter : integer := 0;
 	signal state : state_type := S0;
@@ -61,7 +61,7 @@ begin
 						state <= S0;
 						DONE <= '1';
 						Q <= Data_Quotient;
-						R <= Data_A(N-1 downto 0);
+						R <= Data_A(2*N-1 downto 0);
 					end if;
 					
 				when S2 =>

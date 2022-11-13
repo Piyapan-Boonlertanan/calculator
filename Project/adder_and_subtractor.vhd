@@ -8,7 +8,7 @@ entity adder_and_subtractor is
 			 START : in std_logic;
 			 M : in std_logic;
 			 A,B : in std_logic_vector(N-1 downto 0);
-			 sum : out STD_LOGIC_VECTOR (N-1 downto 0);
+			 sum : out STD_LOGIC_VECTOR (2*N-1 downto 0);
 			 DONE:out std_logic := '0');
 
 end adder_and_subtractor;
@@ -28,9 +28,9 @@ signal cout : std_logic_vector(N downto 0);
 			
 		end generate Full_adder;
 		
-		
-		
+		DONE <= '1';
+
 end data_flow;
-	
+
 	
 			 

@@ -8,37 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/year_2/Digital Lab/Project/simulation/qsim
+dD:/year_2/Digital Lab/Project/simulation/qsim
 Ecalculator
-Z1 w1668336061
-Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
-Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
-Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
-Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z6 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
-Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 12
-R0
+Z0 w1668360449
+Z1 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z2 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z3 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 72
+Z10 dD:/year_2/Digital Lab/calculator git/Project/simulation/qsim
 Z11 8calculator.vho
 Z12 Fcalculator.vho
 l0
 L39 1
-VWlVSOMVMf5bWWAd[]V4^b0
-!s100 A?MFF74E5eLzbl;[b>3B33
+VdbI;6J7Cci`W2G6PzbCV=0
+!s100 NaMMd:RI5OJN0NgzCLX<c1
 Z13 OV;C;2020.1;71
 32
-!s110 1668336061
+Z14 !s110 1668360450
 !i10b 1
-Z14 !s108 1668336061.000000
-Z15 !s90 -work|work|calculator.vho|
-Z16 !s107 calculator.vho|
+Z15 !s108 1668360450.000000
+Z16 !s90 -work|work|calculator.vho|
+Z17 !s107 calculator.vho|
 !i113 1
-Z17 o-work work
-Z18 tExplicit 1 CvgOpt 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
 Astructure
+R1
 R2
 R3
 R4
@@ -47,61 +48,60 @@ R6
 R7
 R8
 R9
-R10
-DEx4 work 10 calculator 0 22 WlVSOMVMf5bWWAd[]V4^b0
-!i122 12
-l247
-L53 2913
-VkHB^8JWo3eIzPQQiMF:NX2
-!s100 Wj17k8FLz<3QC1eczkXJb0
+DEx4 work 10 calculator 0 22 dbI;6J7Cci`W2G6PzbCV=0
+!i122 72
+l463
+L53 6804
+VfMkW[J_6VzmnM5I2M?j4=3
+!s100 M`TIhCj??D=><`f4dk]^`0
 R13
 32
-Z19 !s110 1668336062
-!i10b 1
 R14
+!i10b 1
 R15
 R16
-!i113 1
 R17
+!i113 1
 R18
+R19
 Ecalculator_vhd_vec_tst
-Z20 w1668336060
-R8
-R9
-!i122 13
 R0
-Z21 8Waveform3.vwf.vht
-Z22 FWaveform3.vwf.vht
+R7
+R8
+!i122 73
+R10
+Z20 8Waveform8.vwf.vht
+Z21 FWaveform8.vwf.vht
 l0
 L32 1
 VONYLfmN4i24ck=ed:=dcV3
 !s100 IPb@^5SAm@@[@VQehPIm92
 R13
 32
-R19
+R14
 !i10b 1
-Z23 !s108 1668336062.000000
-Z24 !s90 -work|work|Waveform3.vwf.vht|
-Z25 !s107 Waveform3.vwf.vht|
+R15
+Z22 !s90 -work|work|Waveform8.vwf.vht|
+Z23 !s107 Waveform8.vwf.vht|
 !i113 1
-R17
 R18
+R19
 Acalculator_arch
+R7
 R8
-R9
-Z26 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
-!i122 13
+Z24 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
+!i122 73
 l59
-Z27 L34 140
-Z28 V@G9UA@lZ?>Z58FQGblaan3
-Z29 !s100 d1PZ2c^mL?bTOO=9WdXl`1
+Z25 L34 140
+VC;ZV`c@H@YLDX_W<B0R7>0
+!s100 o@P5Mb][VPW5SF<CPedIU1
 R13
 32
-R19
+R14
 !i10b 1
+R15
+R22
 R23
-R24
-R25
 !i113 1
-R17
 R18
+R19

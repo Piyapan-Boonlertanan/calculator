@@ -1,5 +1,5 @@
 Analysis & Synthesis report for calculator
-Sun Nov 13 18:32:58 2022
+Mon Nov 14 00:26:21 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,7 +10,24 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |calculator|division:division|state
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: Top-level Entity: |calculator
+ 12. Parameter Settings for User Entity Instance: adder_and_subtractor:add
+ 13. Parameter Settings for User Entity Instance: adder_and_subtractor:sub
+ 14. Parameter Settings for User Entity Instance: Multiplication:multiplication
+ 15. Parameter Settings for User Entity Instance: division:division
+ 16. Parameter Settings for User Entity Instance: BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display
+ 17. Port Connectivity Checks: "BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display"
+ 18. Port Connectivity Checks: "adder_and_subtractor:sub"
+ 19. Port Connectivity Checks: "adder_and_subtractor:add"
+ 20. Post-Synthesis Netlist Statistics for Top Partition
+ 21. Elapsed Time Per Partition
+ 22. Analysis & Synthesis Messages
 
 
 
@@ -34,22 +51,27 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Sun Nov 13 18:32:58 2022           ;
-; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
-; Revision Name               ; calculator                                  ;
-; Top-level Entity Name       ; calculator                                  ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Nov 14 00:26:21 2022       ;
+; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                   ; calculator                                  ;
+; Top-level Entity Name           ; calculator                                  ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 176                                         ;
+; Total pins                      ; 36                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -148,11 +170,242 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                      ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
+; adder_and_subtractor.vhd         ; yes             ; User VHDL File  ; D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd      ;         ;
+; BCD_2_digit_7_seg_display.vhd    ; yes             ; User VHDL File  ; D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd ;         ;
+; division.vhd                     ; yes             ; User VHDL File  ; D:/year_2/Digital Lab/calculator git/Project/division.vhd                  ;         ;
+; calculator.vhd                   ; yes             ; User VHDL File  ; D:/year_2/Digital Lab/calculator git/Project/calculator.vhd                ;         ;
+; Multiplication.vhd               ; yes             ; User VHDL File  ; D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd            ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 108       ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 174       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 33        ;
+;     -- 5 input functions                    ; 5         ;
+;     -- 4 input functions                    ; 21        ;
+;     -- <=3 input functions                  ; 115       ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 176       ;
+;                                             ;           ;
+; I/O pins                                    ; 36        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; CLK~input ;
+; Maximum fan-out                             ; 176       ;
+; Total fan-out                               ; 1335      ;
+; Average fan-out                             ; 3.16      ;
++---------------------------------------------+-----------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                            ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
+; Compilation Hierarchy Node                               ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                             ; Entity Name               ; Library Name ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
+; |calculator                                              ; 174 (0)             ; 176 (0)                   ; 0                 ; 0          ; 36   ; 0            ; |calculator                                                     ; calculator                ; work         ;
+;    |BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display| ; 12 (12)             ; 21 (21)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display ; BCD_2_digit_7_seg_display ; work         ;
+;    |Multiplication:multiplication|                       ; 66 (66)             ; 69 (69)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|Multiplication:multiplication                       ; Multiplication            ; work         ;
+;    |adder_and_subtractor:add|                            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:add                            ; adder_and_subtractor      ; work         ;
+;    |adder_and_subtractor:sub|                            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:sub                            ; adder_and_subtractor      ; work         ;
+;    |division:division|                                   ; 86 (86)             ; 86 (86)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|division:division                                   ; division                  ; work         ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------+---------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------+
+; State Machine - |calculator|division:division|state ;
++----------+----------+----------+--------------------+
+; Name     ; state.S2 ; state.S1 ; state.S0           ;
++----------+----------+----------+--------------------+
+; state.S0 ; 0        ; 0        ; 0                  ;
+; state.S1 ; 0        ; 1        ; 1                  ;
+; state.S2 ; 1        ; 0        ; 1                  ;
++----------+----------+----------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 176   ;
+; Number of registers using Synchronous Clear  ; 98    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 89    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 166   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display|Result[5] ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display|Result[1] ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_B[3]                       ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; Yes        ; |calculator|Multiplication:multiplication|Data_Product[6]                 ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_A[4]                       ;
+; 4:1                ; 46 bits   ; 92 LEs        ; 0 LEs                ; 92 LEs                 ; Yes        ; |calculator|division:division|bit_counter[24]                             ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_B[8]                                   ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_A[8]                                   ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |calculator|division:division|Data_A[3]                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |calculator ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; N              ; 5     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder_and_subtractor:add ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; n              ; 5     ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder_and_subtractor:sub ;
++----------------+-------+----------------------------------------------+
+; Parameter Name ; Value ; Type                                         ;
++----------------+-------+----------------------------------------------+
+; n              ; 5     ; Signed Integer                               ;
++----------------+-------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Multiplication:multiplication ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; n              ; 5     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: division:division ;
++----------------+-------+---------------------------------------+
+; Parameter Name ; Value ; Type                                  ;
++----------------+-------+---------------------------------------+
+; n              ; 5     ; Signed Integer                        ;
++----------------+-------+---------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display ;
++----------------+-------+-------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                    ;
++----------------+-------+-------------------------------------------------------------------------+
+; n              ; 5     ; Signed Integer                                                          ;
++----------------+-------+-------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display"                                       ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; overflow    ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; bcd_digit_1 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; bcd_digit_2 ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "adder_and_subtractor:sub" ;
++------+-------+----------+----------------------------+
+; Port ; Type  ; Severity ; Details                    ;
++------+-------+----------+----------------------------+
+; m    ; Input ; Info     ; Stuck at VCC               ;
++------+-------+----------+----------------------------+
+
+
++------------------------------------------------------+
+; Port Connectivity Checks: "adder_and_subtractor:add" ;
++------+-------+----------+----------------------------+
+; Port ; Type  ; Severity ; Details                    ;
++------+-------+----------+----------------------------+
+; m    ; Input ; Info     ; Stuck at GND               ;
++------+-------+----------+----------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 176                         ;
+;     CLR               ; 6                           ;
+;     CLR SCLR          ; 1                           ;
+;     ENA               ; 21                          ;
+;     ENA CLR           ; 48                          ;
+;     ENA CLR SCLR      ; 34                          ;
+;     ENA SCLR          ; 63                          ;
+;     plain             ; 3                           ;
+; arriav_lcell_comb     ; 174                         ;
+;     arith             ; 84                          ;
+;         1 data inputs ; 64                          ;
+;         2 data inputs ; 20                          ;
+;     normal            ; 80                          ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 8                           ;
+;         3 data inputs ; 12                          ;
+;         4 data inputs ; 21                          ;
+;         5 data inputs ; 5                           ;
+;         6 data inputs ; 33                          ;
+;     shared            ; 10                          ;
+;         2 data inputs ; 10                          ;
+; boundary_port         ; 36                          ;
+;                       ;                             ;
+; Max LUT depth         ; 5.10                        ;
+; Average LUT depth     ; 2.49                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
 
 
 +-------------------------------+
@@ -161,41 +414,50 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Sun Nov 13 18:32:51 2022
+    Info: Processing started: Mon Nov 14 00:26:14 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off calculator -c calculator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file adder_and_subtractor.vhd
-    Info (12022): Found design unit 1: adder_and_subtractor-data_flow File: D:/year_2/Digital Lab/Project/adder_and_subtractor.vhd Line: 15
-    Info (12023): Found entity 1: adder_and_subtractor File: D:/year_2/Digital Lab/Project/adder_and_subtractor.vhd Line: 4
+    Info (12022): Found design unit 1: adder_and_subtractor-data_flow File: D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd Line: 16
+    Info (12023): Found entity 1: adder_and_subtractor File: D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file full_adder.vhd
-    Info (12022): Found design unit 1: Full_Adder-data_flow File: D:/year_2/Digital Lab/Project/Full_Adder.vhd Line: 10
-    Info (12023): Found entity 1: Full_Adder File: D:/year_2/Digital Lab/Project/Full_Adder.vhd Line: 4
+    Info (12022): Found design unit 1: Full_Adder-data_flow File: D:/year_2/Digital Lab/calculator git/Project/Full_Adder.vhd Line: 10
+    Info (12023): Found entity 1: Full_Adder File: D:/year_2/Digital Lab/calculator git/Project/Full_Adder.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_to_7_segmen.vhd
-    Info (12022): Found design unit 1: BCD_to_7_segmen-data_process File: D:/year_2/Digital Lab/Project/BCD_to_7_segmen.vhd Line: 13
-    Info (12023): Found entity 1: BCD_to_7_segmen File: D:/year_2/Digital Lab/Project/BCD_to_7_segmen.vhd Line: 4
+    Info (12022): Found design unit 1: BCD_to_7_segmen-data_process File: D:/year_2/Digital Lab/calculator git/Project/BCD_to_7_segmen.vhd Line: 13
+    Info (12023): Found entity 1: BCD_to_7_segmen File: D:/year_2/Digital Lab/calculator git/Project/BCD_to_7_segmen.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_2_digit_7_seg_display.vhd
-    Info (12022): Found design unit 1: BCD_2_digit_7_seg_display-Behavioral File: D:/year_2/Digital Lab/Project/BCD_2_digit_7_seg_display.vhd Line: 17
-    Info (12023): Found entity 1: BCD_2_digit_7_seg_display File: D:/year_2/Digital Lab/Project/BCD_2_digit_7_seg_display.vhd Line: 5
+    Info (12022): Found design unit 1: BCD_2_digit_7_seg_display-Behavioral File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 28
+    Info (12023): Found entity 1: BCD_2_digit_7_seg_display File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file division.vhd
-    Info (12022): Found design unit 1: division-data_flow File: D:/year_2/Digital Lab/Project/division.vhd Line: 14
-    Info (12023): Found entity 1: division File: D:/year_2/Digital Lab/Project/division.vhd Line: 6
-Error (10500): VHDL syntax error at calculator.vhd(20) near text "if";  expecting "(", or "begin", or a declaration statement File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 20
-Error (10500): VHDL syntax error at calculator.vhd(29) near text "entity";  expecting "(", or an identifier ("entity" is a reserved keyword), or a sequential statement File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 29
-Error (10500): VHDL syntax error at calculator.vhd(30) near text "port";  expecting "(", or "'", or "." File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 30
-Error (10500): VHDL syntax error at calculator.vhd(36) near text ";";  expecting ":=", or "<=" File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 36
-Error (10500): VHDL syntax error at calculator.vhd(39) near text "port";  expecting "(", or "'", or "." File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 39
-Error (10500): VHDL syntax error at calculator.vhd(45) near text ";";  expecting ":=", or "<=" File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 45
-Error (10500): VHDL syntax error at calculator.vhd(48) near text "port";  expecting "(", or "'", or "." File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 48
-Error (10500): VHDL syntax error at calculator.vhd(55) near text ";";  expecting ":=", or "<=" File: D:/year_2/Digital Lab/Project/calculator.vhd Line: 55
-Info (12021): Found 0 design units, including 0 entities, in source file calculator.vhd
+    Info (12022): Found design unit 1: division-data_flow File: D:/year_2/Digital Lab/calculator git/Project/division.vhd Line: 14
+    Info (12023): Found entity 1: division File: D:/year_2/Digital Lab/calculator git/Project/division.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file calculator.vhd
+    Info (12022): Found design unit 1: calculator-struct File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 16
+    Info (12023): Found entity 1: calculator File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file multiplication.vhd
-    Info (12022): Found design unit 1: Multiplication-Behave File: D:/year_2/Digital Lab/Project/Multiplication.vhd Line: 14
-    Info (12023): Found entity 1: Multiplication File: D:/year_2/Digital Lab/Project/Multiplication.vhd Line: 6
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 8 errors, 1 warning
-    Error: Peak virtual memory: 4836 megabytes
-    Error: Processing ended: Sun Nov 13 18:32:58 2022
-    Error: Elapsed time: 00:00:07
-    Error: Total CPU time (on all processors): 00:00:05
+    Info (12022): Found design unit 1: Multiplication-Behave File: D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd Line: 14
+    Info (12023): Found entity 1: Multiplication File: D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd Line: 6
+Info (12127): Elaborating entity "calculator" for the top level hierarchy
+Info (12129): Elaborating entity "adder_and_subtractor" using architecture "A:data_flow" for hierarchy "adder_and_subtractor:add" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 29
+Warning (10873): Using initial value X (don't care) for net "sum[9..5]" at adder_and_subtractor.vhd(11) File: D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd Line: 11
+Info (12129): Elaborating entity "Multiplication" using architecture "A:behave" for hierarchy "Multiplication:multiplication" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 51
+Info (12129): Elaborating entity "division" using architecture "A:data_flow" for hierarchy "division:division" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 61
+Info (12129): Elaborating entity "BCD_2_digit_7_seg_display" using architecture "A:behavioral" for hierarchy "BCD_2_digit_7_seg_display:BCD_2_digit_7_seg_display" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 72
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(68): signal "int_data_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 68
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(69): signal "int_data_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 69
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 269 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 21 output pins
+    Info (21061): Implemented 233 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4842 megabytes
+    Info: Processing ended: Mon Nov 14 00:26:21 2022
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:05
 
 
