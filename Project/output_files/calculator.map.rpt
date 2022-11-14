@@ -1,5 +1,5 @@
 Analysis & Synthesis report for calculator
-Mon Nov 14 20:17:41 2022
+Mon Nov 14 21:03:02 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -15,39 +15,46 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. State Machine - |calculator|division:division|state
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |calculator
- 14. Parameter Settings for User Entity Instance: adder_and_subtractor:add
- 15. Parameter Settings for User Entity Instance: adder_and_subtractor:sub
- 16. Parameter Settings for User Entity Instance: Multiplication:multiplication
- 17. Parameter Settings for User Entity Instance: division:division
- 18. Parameter Settings for User Entity Instance: BCD_2_digit_7_seg_display:convert_binary
- 19. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_1
- 20. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_2
- 21. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_3
- 22. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_4
- 23. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_5
- 24. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_6
- 25. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3
- 26. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div5
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |calculator
+ 13. Parameter Settings for User Entity Instance: adder_and_subtractor:add
+ 14. Parameter Settings for User Entity Instance: adder_and_subtractor:sub
+ 15. Parameter Settings for User Entity Instance: Multiplication:multiplication
+ 16. Parameter Settings for User Entity Instance: division:division
+ 17. Parameter Settings for User Entity Instance: BCD_2_digit_7_seg_display:convert_binary
+ 18. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_1
+ 19. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_2
+ 20. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_3
+ 21. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_4
+ 22. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_5
+ 23. Parameter Settings for User Entity Instance: BCD_to_7_segmen:seven_seg_display_6
+ 24. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9
+ 25. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div5
+ 26. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3
  27. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div1
- 28. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2
- 29. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3
+ 28. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8
+ 29. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9
  30. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div4
  31. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod5
- 32. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0
- 33. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod1
- 34. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod2
- 35. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod4
- 36. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0
- 37. Port Connectivity Checks: "BCD_2_digit_7_seg_display:convert_binary"
- 38. Port Connectivity Checks: "adder_and_subtractor:sub"
- 39. Port Connectivity Checks: "adder_and_subtractor:add"
- 40. Post-Synthesis Netlist Statistics for Top Partition
- 41. Elapsed Time Per Partition
- 42. Analysis & Synthesis Messages
+ 32. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2
+ 33. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3
+ 34. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0
+ 35. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod1
+ 36. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8
+ 37. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod4
+ 38. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod2
+ 39. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0
+ 40. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7
+ 41. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6
+ 42. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7
+ 43. Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6
+ 44. Port Connectivity Checks: "BCD_2_digit_7_seg_display:convert_binary"
+ 45. Port Connectivity Checks: "adder_and_subtractor:sub"
+ 46. Port Connectivity Checks: "adder_and_subtractor:add"
+ 47. Post-Synthesis Netlist Statistics for Top Partition
+ 48. Elapsed Time Per Partition
+ 49. Analysis & Synthesis Messages
 
 
 
@@ -74,13 +81,13 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 14 20:17:41 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 14 21:03:02 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; calculator                                  ;
 ; Top-level Entity Name           ; calculator                                  ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 289                                         ;
+; Total registers                 ; 309                                         ;
 ; Total pins                      ; 78                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -232,25 +239,25 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 696       ;
+; Estimate of Logic utilization (ALMs needed) ; 1047      ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1306      ;
-;     -- 7 input functions                    ; 1         ;
-;     -- 6 input functions                    ; 74        ;
-;     -- 5 input functions                    ; 38        ;
-;     -- 4 input functions                    ; 193       ;
-;     -- <=3 input functions                  ; 1000      ;
+; Combinational ALUT usage for logic          ; 1997      ;
+;     -- 7 input functions                    ; 18        ;
+;     -- 6 input functions                    ; 70        ;
+;     -- 5 input functions                    ; 45        ;
+;     -- 4 input functions                    ; 312       ;
+;     -- <=3 input functions                  ; 1552      ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 289       ;
+; Dedicated logic registers                   ; 309       ;
 ;                                             ;           ;
 ; I/O pins                                    ; 78        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
-; Maximum fan-out                             ; 289       ;
-; Total fan-out                               ; 5114      ;
-; Average fan-out                             ; 2.92      ;
+; Maximum fan-out                             ; 309       ;
+; Total fan-out                               ; 7222      ;
+; Average fan-out                             ; 2.93      ;
 +---------------------------------------------+-----------+
 
 
@@ -259,8 +266,8 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node                    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                  ; Entity Name               ; Library Name ;
 +-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
-; |calculator                                   ; 1306 (0)            ; 289 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |calculator                                                                                                                                          ; calculator                ; work         ;
-;    |BCD_2_digit_7_seg_display:convert_binary| ; 1041 (57)           ; 34 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary                                                                                                 ; BCD_2_digit_7_seg_display ; work         ;
+; |calculator                                   ; 1997 (0)            ; 309 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |calculator                                                                                                                                          ; calculator                ; work         ;
+;    |BCD_2_digit_7_seg_display:convert_binary| ; 1714 (68)           ; 45 (45)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary                                                                                                 ; BCD_2_digit_7_seg_display ; work         ;
 ;       |lpm_divide:Div0|                       ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0                                                                                 ; lpm_divide                ; work         ;
 ;          |lpm_divide_ebm:auto_generated|      ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0|lpm_divide_ebm:auto_generated                                                   ; lpm_divide_ebm            ; work         ;
 ;             |sign_div_unsign_klh:divider|     ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0|lpm_divide_ebm:auto_generated|sign_div_unsign_klh:divider                       ; sign_div_unsign_klh       ; work         ;
@@ -285,6 +292,22 @@ https://fpgasoftware.intel.com/eula.
 ;          |lpm_divide_hbm:auto_generated|      ; 60 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div5|lpm_divide_hbm:auto_generated                                                   ; lpm_divide_hbm            ; work         ;
 ;             |sign_div_unsign_nlh:divider|     ; 60 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div5|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider                       ; sign_div_unsign_nlh       ; work         ;
 ;                |alt_u_div_kve:divider|        ; 60 (60)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div5|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider|alt_u_div_kve:divider ; alt_u_div_kve             ; work         ;
+;       |lpm_divide:Div6|                       ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_ebm:auto_generated|      ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6|lpm_divide_ebm:auto_generated                                                   ; lpm_divide_ebm            ; work         ;
+;             |sign_div_unsign_klh:divider|     ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6|lpm_divide_ebm:auto_generated|sign_div_unsign_klh:divider                       ; sign_div_unsign_klh       ; work         ;
+;                |alt_u_div_eve:divider|        ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6|lpm_divide_ebm:auto_generated|sign_div_unsign_klh:divider|alt_u_div_eve:divider ; alt_u_div_eve             ; work         ;
+;       |lpm_divide:Div7|                       ; 62 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_hbm:auto_generated|      ; 62 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7|lpm_divide_hbm:auto_generated                                                   ; lpm_divide_hbm            ; work         ;
+;             |sign_div_unsign_nlh:divider|     ; 62 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider                       ; sign_div_unsign_nlh       ; work         ;
+;                |alt_u_div_kve:divider|        ; 62 (62)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider|alt_u_div_kve:divider ; alt_u_div_kve             ; work         ;
+;       |lpm_divide:Div8|                       ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_ebm:auto_generated|      ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8|lpm_divide_ebm:auto_generated                                                   ; lpm_divide_ebm            ; work         ;
+;             |sign_div_unsign_klh:divider|     ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8|lpm_divide_ebm:auto_generated|sign_div_unsign_klh:divider                       ; sign_div_unsign_klh       ; work         ;
+;                |alt_u_div_eve:divider|        ; 71 (71)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8|lpm_divide_ebm:auto_generated|sign_div_unsign_klh:divider|alt_u_div_eve:divider ; alt_u_div_eve             ; work         ;
+;       |lpm_divide:Div9|                       ; 60 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_hbm:auto_generated|      ; 60 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9|lpm_divide_hbm:auto_generated                                                   ; lpm_divide_hbm            ; work         ;
+;             |sign_div_unsign_nlh:divider|     ; 60 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider                       ; sign_div_unsign_nlh       ; work         ;
+;                |alt_u_div_kve:divider|        ; 60 (60)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9|lpm_divide_hbm:auto_generated|sign_div_unsign_nlh:divider|alt_u_div_kve:divider ; alt_u_div_kve             ; work         ;
 ;       |lpm_divide:Mod0|                       ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0                                                                                 ; lpm_divide                ; work         ;
 ;          |lpm_divide_u4m:auto_generated|      ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
 ;             |sign_div_unsign_1nh:divider|     ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
@@ -309,12 +332,28 @@ https://fpgasoftware.intel.com/eula.
 ;          |lpm_divide_u4m:auto_generated|      ; 89 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod5|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
 ;             |sign_div_unsign_1nh:divider|     ; 89 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod5|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
 ;                |alt_u_div_82f:divider|        ; 89 (89)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod5|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_82f:divider ; alt_u_div_82f             ; work         ;
+;       |lpm_divide:Mod6|                       ; 110 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_u4m:auto_generated|      ; 110 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
+;             |sign_div_unsign_1nh:divider|     ; 110 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
+;                |alt_u_div_82f:divider|        ; 110 (110)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_82f:divider ; alt_u_div_82f             ; work         ;
+;       |lpm_divide:Mod7|                       ; 91 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_u4m:auto_generated|      ; 91 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
+;             |sign_div_unsign_1nh:divider|     ; 91 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
+;                |alt_u_div_82f:divider|        ; 91 (91)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_82f:divider ; alt_u_div_82f             ; work         ;
+;       |lpm_divide:Mod8|                       ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_u4m:auto_generated|      ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
+;             |sign_div_unsign_1nh:divider|     ; 108 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
+;                |alt_u_div_82f:divider|        ; 108 (108)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_82f:divider ; alt_u_div_82f             ; work         ;
+;       |lpm_divide:Mod9|                       ; 89 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9                                                                                 ; lpm_divide                ; work         ;
+;          |lpm_divide_u4m:auto_generated|      ; 89 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9|lpm_divide_u4m:auto_generated                                                   ; lpm_divide_u4m            ; work         ;
+;             |sign_div_unsign_1nh:divider|     ; 89 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh       ; work         ;
+;                |alt_u_div_82f:divider|        ; 89 (89)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9|lpm_divide_u4m:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_82f:divider ; alt_u_div_82f             ; work         ;
 ;    |BCD_to_7_segmen:seven_seg_display_1|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_1                                                                                                      ; BCD_to_7_segmen           ; work         ;
 ;    |BCD_to_7_segmen:seven_seg_display_2|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_2                                                                                                      ; BCD_to_7_segmen           ; work         ;
 ;    |BCD_to_7_segmen:seven_seg_display_3|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_3                                                                                                      ; BCD_to_7_segmen           ; work         ;
-;    |BCD_to_7_segmen:seven_seg_display_4|      ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_4                                                                                                      ; BCD_to_7_segmen           ; work         ;
-;    |BCD_to_7_segmen:seven_seg_display_5|      ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_5                                                                                                      ; BCD_to_7_segmen           ; work         ;
-;    |BCD_to_7_segmen:seven_seg_display_6|      ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_6                                                                                                      ; BCD_to_7_segmen           ; work         ;
+;    |BCD_to_7_segmen:seven_seg_display_4|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_4                                                                                                      ; BCD_to_7_segmen           ; work         ;
+;    |BCD_to_7_segmen:seven_seg_display_5|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_5                                                                                                      ; BCD_to_7_segmen           ; work         ;
+;    |BCD_to_7_segmen:seven_seg_display_6|      ; 7 (7)               ; 7 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_6                                                                                                      ; BCD_to_7_segmen           ; work         ;
 ;    |Multiplication:multiplication|            ; 66 (66)             ; 69 (69)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|Multiplication:multiplication                                                                                                            ; Multiplication            ; work         ;
 ;    |adder_and_subtractor:add|                 ; 69 (69)             ; 50 (50)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:add                                                                                                                 ; adder_and_subtractor      ; work         ;
 ;    |adder_and_subtractor:sub|                 ; 19 (19)             ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:sub                                                                                                                 ; adder_and_subtractor      ; work         ;
@@ -335,83 +374,47 @@ Encoding Type:  One-Hot
 +----------+----------+----------+--------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                              ;
-+-----------------------------------------------------------+---------------------------------------------------------------------+
-; Register name                                             ; Reason for Removal                                                  ;
-+-----------------------------------------------------------+---------------------------------------------------------------------+
-; adder_and_subtractor:sub|DONE                             ; Merged with adder_and_subtractor:add|DONE                           ;
-; adder_and_subtractor:sub|bit_counter[2]                   ; Merged with adder_and_subtractor:add|bit_counter[2]                 ;
-; adder_and_subtractor:sub|bit_counter[1]                   ; Merged with adder_and_subtractor:add|bit_counter[1]                 ;
-; adder_and_subtractor:sub|bit_counter[0]                   ; Merged with adder_and_subtractor:add|bit_counter[0]                 ;
-; adder_and_subtractor:sub|bit_counter[3]                   ; Merged with adder_and_subtractor:add|bit_counter[3]                 ;
-; adder_and_subtractor:sub|bit_counter[31]                  ; Merged with adder_and_subtractor:add|bit_counter[31]                ;
-; adder_and_subtractor:sub|bit_counter[30]                  ; Merged with adder_and_subtractor:add|bit_counter[30]                ;
-; adder_and_subtractor:sub|bit_counter[29]                  ; Merged with adder_and_subtractor:add|bit_counter[29]                ;
-; adder_and_subtractor:sub|bit_counter[28]                  ; Merged with adder_and_subtractor:add|bit_counter[28]                ;
-; adder_and_subtractor:sub|bit_counter[27]                  ; Merged with adder_and_subtractor:add|bit_counter[27]                ;
-; adder_and_subtractor:sub|bit_counter[26]                  ; Merged with adder_and_subtractor:add|bit_counter[26]                ;
-; adder_and_subtractor:sub|bit_counter[25]                  ; Merged with adder_and_subtractor:add|bit_counter[25]                ;
-; adder_and_subtractor:sub|bit_counter[24]                  ; Merged with adder_and_subtractor:add|bit_counter[24]                ;
-; adder_and_subtractor:sub|bit_counter[23]                  ; Merged with adder_and_subtractor:add|bit_counter[23]                ;
-; adder_and_subtractor:sub|bit_counter[22]                  ; Merged with adder_and_subtractor:add|bit_counter[22]                ;
-; adder_and_subtractor:sub|bit_counter[21]                  ; Merged with adder_and_subtractor:add|bit_counter[21]                ;
-; adder_and_subtractor:sub|bit_counter[20]                  ; Merged with adder_and_subtractor:add|bit_counter[20]                ;
-; adder_and_subtractor:sub|bit_counter[19]                  ; Merged with adder_and_subtractor:add|bit_counter[19]                ;
-; adder_and_subtractor:sub|bit_counter[18]                  ; Merged with adder_and_subtractor:add|bit_counter[18]                ;
-; adder_and_subtractor:sub|bit_counter[17]                  ; Merged with adder_and_subtractor:add|bit_counter[17]                ;
-; adder_and_subtractor:sub|bit_counter[16]                  ; Merged with adder_and_subtractor:add|bit_counter[16]                ;
-; adder_and_subtractor:sub|bit_counter[15]                  ; Merged with adder_and_subtractor:add|bit_counter[15]                ;
-; adder_and_subtractor:sub|bit_counter[14]                  ; Merged with adder_and_subtractor:add|bit_counter[14]                ;
-; adder_and_subtractor:sub|bit_counter[13]                  ; Merged with adder_and_subtractor:add|bit_counter[13]                ;
-; adder_and_subtractor:sub|bit_counter[12]                  ; Merged with adder_and_subtractor:add|bit_counter[12]                ;
-; adder_and_subtractor:sub|bit_counter[11]                  ; Merged with adder_and_subtractor:add|bit_counter[11]                ;
-; adder_and_subtractor:sub|bit_counter[10]                  ; Merged with adder_and_subtractor:add|bit_counter[10]                ;
-; adder_and_subtractor:sub|bit_counter[9]                   ; Merged with adder_and_subtractor:add|bit_counter[9]                 ;
-; adder_and_subtractor:sub|bit_counter[8]                   ; Merged with adder_and_subtractor:add|bit_counter[8]                 ;
-; adder_and_subtractor:sub|bit_counter[7]                   ; Merged with adder_and_subtractor:add|bit_counter[7]                 ;
-; adder_and_subtractor:sub|bit_counter[6]                   ; Merged with adder_and_subtractor:add|bit_counter[6]                 ;
-; adder_and_subtractor:sub|bit_counter[5]                   ; Merged with adder_and_subtractor:add|bit_counter[5]                 ;
-; adder_and_subtractor:sub|bit_counter[4]                   ; Merged with adder_and_subtractor:add|bit_counter[4]                 ;
-; adder_and_subtractor:sub|state                            ; Merged with adder_and_subtractor:add|state                          ;
-; division:division|B_OVERFLOW                              ; Stuck at GND due to stuck port data_in                              ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[0,2] ; Stuck at GND due to stuck port data_in                              ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[0,2] ; Stuck at GND due to stuck port data_in                              ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0,2] ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_6|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_5|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_4|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[3]   ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_to_7_segmen:seven_seg_display_4|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_5|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_6|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
-; Total Number of Removed Registers = 55                    ;                                                                     ;
-+-----------------------------------------------------------+---------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                         ;
-+------------------------------+---------------------------+----------------------------------------------------------+
-; Register name                ; Reason for Removal        ; Registers Removed due to This Register                   ;
-+------------------------------+---------------------------+----------------------------------------------------------+
-; division:division|B_OVERFLOW ; Stuck at GND              ; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[2], ;
-;                              ; due to stuck port data_in ; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[0], ;
-;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[2], ;
-;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[0], ;
-;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[2], ;
-;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0], ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[3],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[4],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[3],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[4],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[3],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[4],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[5],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[5],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[5]         ;
-+------------------------------+---------------------------+----------------------------------------------------------+
++-------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                              ;
++------------------------------------------+------------------------------------------------------+
+; Register name                            ; Reason for Removal                                   ;
++------------------------------------------+------------------------------------------------------+
+; adder_and_subtractor:sub|DONE            ; Merged with adder_and_subtractor:add|DONE            ;
+; adder_and_subtractor:sub|bit_counter[2]  ; Merged with adder_and_subtractor:add|bit_counter[2]  ;
+; adder_and_subtractor:sub|bit_counter[1]  ; Merged with adder_and_subtractor:add|bit_counter[1]  ;
+; adder_and_subtractor:sub|bit_counter[0]  ; Merged with adder_and_subtractor:add|bit_counter[0]  ;
+; adder_and_subtractor:sub|bit_counter[3]  ; Merged with adder_and_subtractor:add|bit_counter[3]  ;
+; adder_and_subtractor:sub|bit_counter[31] ; Merged with adder_and_subtractor:add|bit_counter[31] ;
+; adder_and_subtractor:sub|bit_counter[30] ; Merged with adder_and_subtractor:add|bit_counter[30] ;
+; adder_and_subtractor:sub|bit_counter[29] ; Merged with adder_and_subtractor:add|bit_counter[29] ;
+; adder_and_subtractor:sub|bit_counter[28] ; Merged with adder_and_subtractor:add|bit_counter[28] ;
+; adder_and_subtractor:sub|bit_counter[27] ; Merged with adder_and_subtractor:add|bit_counter[27] ;
+; adder_and_subtractor:sub|bit_counter[26] ; Merged with adder_and_subtractor:add|bit_counter[26] ;
+; adder_and_subtractor:sub|bit_counter[25] ; Merged with adder_and_subtractor:add|bit_counter[25] ;
+; adder_and_subtractor:sub|bit_counter[24] ; Merged with adder_and_subtractor:add|bit_counter[24] ;
+; adder_and_subtractor:sub|bit_counter[23] ; Merged with adder_and_subtractor:add|bit_counter[23] ;
+; adder_and_subtractor:sub|bit_counter[22] ; Merged with adder_and_subtractor:add|bit_counter[22] ;
+; adder_and_subtractor:sub|bit_counter[21] ; Merged with adder_and_subtractor:add|bit_counter[21] ;
+; adder_and_subtractor:sub|bit_counter[20] ; Merged with adder_and_subtractor:add|bit_counter[20] ;
+; adder_and_subtractor:sub|bit_counter[19] ; Merged with adder_and_subtractor:add|bit_counter[19] ;
+; adder_and_subtractor:sub|bit_counter[18] ; Merged with adder_and_subtractor:add|bit_counter[18] ;
+; adder_and_subtractor:sub|bit_counter[17] ; Merged with adder_and_subtractor:add|bit_counter[17] ;
+; adder_and_subtractor:sub|bit_counter[16] ; Merged with adder_and_subtractor:add|bit_counter[16] ;
+; adder_and_subtractor:sub|bit_counter[15] ; Merged with adder_and_subtractor:add|bit_counter[15] ;
+; adder_and_subtractor:sub|bit_counter[14] ; Merged with adder_and_subtractor:add|bit_counter[14] ;
+; adder_and_subtractor:sub|bit_counter[13] ; Merged with adder_and_subtractor:add|bit_counter[13] ;
+; adder_and_subtractor:sub|bit_counter[12] ; Merged with adder_and_subtractor:add|bit_counter[12] ;
+; adder_and_subtractor:sub|bit_counter[11] ; Merged with adder_and_subtractor:add|bit_counter[11] ;
+; adder_and_subtractor:sub|bit_counter[10] ; Merged with adder_and_subtractor:add|bit_counter[10] ;
+; adder_and_subtractor:sub|bit_counter[9]  ; Merged with adder_and_subtractor:add|bit_counter[9]  ;
+; adder_and_subtractor:sub|bit_counter[8]  ; Merged with adder_and_subtractor:add|bit_counter[8]  ;
+; adder_and_subtractor:sub|bit_counter[7]  ; Merged with adder_and_subtractor:add|bit_counter[7]  ;
+; adder_and_subtractor:sub|bit_counter[6]  ; Merged with adder_and_subtractor:add|bit_counter[6]  ;
+; adder_and_subtractor:sub|bit_counter[5]  ; Merged with adder_and_subtractor:add|bit_counter[5]  ;
+; adder_and_subtractor:sub|bit_counter[4]  ; Merged with adder_and_subtractor:add|bit_counter[4]  ;
+; adder_and_subtractor:sub|state           ; Merged with adder_and_subtractor:add|state           ;
+; Total Number of Removed Registers = 34   ;                                                      ;
++------------------------------------------+------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -419,34 +422,35 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 289   ;
-; Number of registers using Synchronous Clear  ; 130   ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 123   ;
+; Total registers                              ; 309   ;
+; Number of registers using Synchronous Clear  ; 136   ;
+; Number of registers using Synchronous Load   ; 7     ;
+; Number of registers using Asynchronous Clear ; 134   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 218   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
-; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|Result[7]     ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_B[3]                ;
-; 3:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; Yes        ; |calculator|Multiplication:multiplication|Data_Product[0]          ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_A[2]                ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|int_data_1[1] ;
-; 4:1                ; 46 bits   ; 92 LEs        ; 0 LEs                ; 92 LEs                 ; Yes        ; |calculator|division:division|bit_counter[2]                       ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_B[5]                            ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_A[8]                            ;
-; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |calculator|division:division|Data_A[0]                            ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |calculator|division:division|state                                ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux0                          ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux2                          ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|int_data_5r[1] ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|Result[8]      ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_B[1]                 ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; Yes        ; |calculator|Multiplication:multiplication|Data_Product[3]           ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_A[3]                 ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|int_data_1[3]  ;
+; 4:1                ; 46 bits   ; 92 LEs        ; 0 LEs                ; 92 LEs                 ; Yes        ; |calculator|division:division|bit_counter[28]                       ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_B[8]                             ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_A[6]                             ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |calculator|division:division|Data_A[1]                             ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |calculator|division:division|state                                 ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux0                           ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux2                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------+
@@ -570,7 +574,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3 ;
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
 +------------------------+----------------+-----------------------------------------------------------------+
@@ -616,6 +620,29 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 7              ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_hbm ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div1 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
@@ -639,7 +666,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2 ;
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
 +------------------------+----------------+-----------------------------------------------------------------+
@@ -662,7 +689,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3 ;
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
 +------------------------+----------------+-----------------------------------------------------------------+
@@ -731,6 +758,52 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 4              ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_ebm ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 10             ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_u4m ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
@@ -777,7 +850,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod2 ;
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod8 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
 +------------------------+----------------+-----------------------------------------------------------------+
@@ -823,7 +896,122 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod2 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 10             ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_u4m ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod0 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 10             ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_u4m ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div7 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 7              ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_hbm ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div6 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 4              ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_ebm ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod7 ;
++------------------------+----------------+-----------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                            ;
++------------------------+----------------+-----------------------------------------------------------------+
+; LPM_WIDTHN             ; 10             ; Untyped                                                         ;
+; LPM_WIDTHD             ; 10             ; Untyped                                                         ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                         ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                         ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                         ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                         ;
+; CBXI_PARAMETER         ; lpm_divide_u4m ; Untyped                                                         ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                         ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                         ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                      ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                    ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                    ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                  ;
++------------------------+----------------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod6 ;
 +------------------------+----------------+-----------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                            ;
 +------------------------+----------------+-----------------------------------------------------------------+
@@ -878,39 +1066,40 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 289                         ;
-;     CLR               ; 20                          ;
+; arriav_ff             ; 309                         ;
+;     CLR               ; 25                          ;
 ;     CLR SCLR          ; 1                           ;
-;     ENA               ; 21                          ;
+;     CLR SCLR SLD      ; 6                           ;
+;     ENA               ; 20                          ;
 ;     ENA CLR           ; 68                          ;
 ;     ENA CLR SCLR      ; 34                          ;
 ;     ENA SCLR          ; 95                          ;
-;     plain             ; 50                          ;
-; arriav_lcell_comb     ; 1307                        ;
-;     arith             ; 653                         ;
-;         0 data inputs ; 120                         ;
-;         1 data inputs ; 156                         ;
-;         2 data inputs ; 50                          ;
-;         3 data inputs ; 213                         ;
-;         4 data inputs ; 114                         ;
-;     extend            ; 1                           ;
-;         7 data inputs ; 1                           ;
-;     normal            ; 571                         ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 4                           ;
-;         2 data inputs ; 232                         ;
-;         3 data inputs ; 143                         ;
-;         4 data inputs ; 79                          ;
-;         5 data inputs ; 38                          ;
-;         6 data inputs ; 74                          ;
-;     shared            ; 82                          ;
-;         0 data inputs ; 21                          ;
-;         1 data inputs ; 51                          ;
+;     ENA SLD           ; 1                           ;
+;     plain             ; 59                          ;
+; arriav_lcell_comb     ; 1997                        ;
+;     arith             ; 1011                        ;
+;         0 data inputs ; 200                         ;
+;         1 data inputs ; 196                         ;
+;         2 data inputs ; 70                          ;
+;         3 data inputs ; 355                         ;
+;         4 data inputs ; 190                         ;
+;     extend            ; 18                          ;
+;         7 data inputs ; 18                          ;
+;     normal            ; 838                         ;
+;         1 data inputs ; 3                           ;
+;         2 data inputs ; 376                         ;
+;         3 data inputs ; 222                         ;
+;         4 data inputs ; 122                         ;
+;         5 data inputs ; 45                          ;
+;         6 data inputs ; 70                          ;
+;     shared            ; 130                         ;
+;         0 data inputs ; 35                          ;
+;         1 data inputs ; 85                          ;
 ;         2 data inputs ; 10                          ;
 ; boundary_port         ; 78                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 15.70                       ;
-; Average LUT depth     ; 9.54                        ;
+; Average LUT depth     ; 10.35                       ;
 +-----------------------+-----------------------------+
 
 
@@ -929,7 +1118,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Nov 14 20:17:33 2022
+    Info: Processing started: Mon Nov 14 21:02:53 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off calculator -c calculator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -966,21 +1155,29 @@ Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd
 Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(125): signal "int_data_5r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 125
 Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(126): signal "int_data_6r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 126
 Info (12129): Elaborating entity "BCD_to_7_segmen" using architecture "A:data_process" for hierarchy "BCD_to_7_segmen:seven_seg_display_1" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 116
-Info (278001): Inferred 12 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
+Info (278001): Inferred 20 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div9" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 106
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div5" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 94
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div1" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 63
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div8" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod9" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div4" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 93
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod5" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 93
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div0" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 62
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod1" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 62
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 72
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod8" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 104
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod4" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 92
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 72
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod0" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 61
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div7" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 103
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div6" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 102
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod7" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 102
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod6" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 101
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 106
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div9" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 106
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -991,8 +1188,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_nlh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_nlh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kve.tdf
     Info (12023): Found entity 1: alt_u_div_kve File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_kve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div8" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1003,8 +1200,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_klh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_klh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_eve.tdf
     Info (12023): Found entity 1: alt_u_div_eve File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_eve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod9" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 105
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1015,27 +1212,17 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_1nh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_1nh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_82f.tdf
     Info (12023): Found entity 1: alt_u_div_82f File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_82f.tdf Line: 23
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "seven_seg_digit_4r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_4r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_4r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_5r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_5r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_5r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_6r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
-    Warning (13410): Pin "seven_seg_digit_6r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
-    Warning (13410): Pin "seven_seg_digit_6r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1475 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2157 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 63 output pins
-    Info (21061): Implemented 1397 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4868 megabytes
-    Info: Processing ended: Mon Nov 14 20:17:41 2022
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:08
+    Info (21061): Implemented 2079 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 4871 megabytes
+    Info: Processing ended: Mon Nov 14 21:03:02 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:09
 
 

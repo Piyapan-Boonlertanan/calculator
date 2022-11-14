@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/14/2022 20:20:06"
+-- Generated on "11/14/2022 21:02:24"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          calculator
 -- 
@@ -54,17 +54,17 @@ COMPONENT calculator
 	A : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
 	B : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
 	CLK : IN STD_LOGIC;
-	Done : OUT STD_LOGIC;
+	Done : BUFFER STD_LOGIC;
 	Operation : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
-	Remainder : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
-	Result : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
+	Remainder : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
+	Result : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
 	RST_N : IN STD_LOGIC;
-	seven_seg_digit_1 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
-	seven_seg_digit_2 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
-	seven_seg_digit_3 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
-	seven_seg_digit_4r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
-	seven_seg_digit_5r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
-	seven_seg_digit_6r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_1 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_2 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_3 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_4r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_5r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_6r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
 	Start : IN STD_LOGIC
 	);
 END COMPONENT;
@@ -133,13 +133,13 @@ END PROCESS t_prcs_B_3;
 -- B[2]
 t_prcs_B_2: PROCESS
 BEGIN
-	B(2) <= '1';
+	B(2) <= '0';
 WAIT;
 END PROCESS t_prcs_B_2;
 -- B[1]
 t_prcs_B_1: PROCESS
 BEGIN
-	B(1) <= '1';
+	B(1) <= '0';
 WAIT;
 END PROCESS t_prcs_B_1;
 -- B[0]
@@ -163,7 +163,7 @@ END PROCESS t_prcs_CLK;
 -- Operation[1]
 t_prcs_Operation_1: PROCESS
 BEGIN
-	Operation(1) <= '1';
+	Operation(1) <= '0';
 WAIT;
 END PROCESS t_prcs_Operation_1;
 -- Operation[0]

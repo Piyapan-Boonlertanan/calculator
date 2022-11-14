@@ -44,10 +44,11 @@ begin
 					if S_Start = '0' then
 						Data_A (N-1 downto 0) <= A;
 						Data_B(2*N-1 downto N)  <= B;
-						
+--						state <= S1;
+
 						case B is
 							when "00000" =>
-								B_OVERFLOW <= '0';
+								B_OVERFLOW <= '1';
 								
 							when others =>
 								state <= S1;
