@@ -8,7 +8,9 @@ entity division is
 	port (CLK, RST_N, START :in std_logic;
 			A,B :in std_logic_vector(N-1 downto 0):= (others => '0');
 			Q,R :out std_logic_vector(2*N-1 downto 0):= (others => '0');
-			DONE:out std_logic := '0');
+			DONE:out std_logic := '0';
+			B_OVERFLOW : out std_logic);
+			
 	end division;
 	
 architecture data_flow of division is
@@ -39,10 +41,18 @@ begin
 			case state is
 				
 				when S0 =>
-					if S_Start = '1' then
+					if S_Start = '0' then
 						Data_A (N-1 downto 0) <= A;
 						Data_B(2*N-1 downto N)  <= B;
-						state <= S1;
+						
+						case Data_B is
+							when "0000000000" =>
+								B_OVERFLOW <= '0';
+								
+							when others =>
+								state <= S1;
+						end case;	
+						
 					else
 						state <= S0;
 						DONE <= '0';

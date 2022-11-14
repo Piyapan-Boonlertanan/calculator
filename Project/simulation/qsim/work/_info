@@ -10,7 +10,7 @@ z2
 cModel Technology
 dD:/year_2/Digital Lab/Project/simulation/qsim
 Ecalculator
-Z0 w1668360449
+Z0 w1668429665
 Z1 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
 Z2 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
 Z3 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
@@ -20,19 +20,19 @@ Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 72
-Z10 dD:/year_2/Digital Lab/calculator git/Project/simulation/qsim
+!i122 156
+Z10 dD:/year_2/Digital Lab/Calculator/simulation/qsim
 Z11 8calculator.vho
 Z12 Fcalculator.vho
 l0
 L39 1
-VdbI;6J7Cci`W2G6PzbCV=0
-!s100 NaMMd:RI5OJN0NgzCLX<c1
+VkB6R_6T5R<lC_V8ZPCoOB3
+!s100 gCl9oa^CeQhAze]k0L>AE0
 Z13 OV;C;2020.1;71
 32
-Z14 !s110 1668360450
+Z14 !s110 1668429666
 !i10b 1
-Z15 !s108 1668360450.000000
+Z15 !s108 1668429666.000000
 Z16 !s90 -work|work|calculator.vho|
 Z17 !s107 calculator.vho|
 !i113 1
@@ -48,12 +48,12 @@ R6
 R7
 R8
 R9
-DEx4 work 10 calculator 0 22 dbI;6J7Cci`W2G6PzbCV=0
-!i122 72
-l463
-L53 6804
-VfMkW[J_6VzmnM5I2M?j4=3
-!s100 M`TIhCj??D=><`f4dk]^`0
+DEx4 work 10 calculator 0 22 kB6R_6T5R<lC_V8ZPCoOB3
+!i122 156
+l3051
+L59 32984
+V9U3?Q<c[`b@6LWFnzQ?Vl1
+!s100 3GNJNCnD4>:T9hYfVNmiF3
 R13
 32
 R14
@@ -65,13 +65,13 @@ R17
 R18
 R19
 Ecalculator_vhd_vec_tst
-R0
+Z20 w1668429664
 R7
 R8
-!i122 73
+!i122 157
 R10
-Z20 8Waveform8.vwf.vht
-Z21 FWaveform8.vwf.vht
+Z21 8Waveform2.vwf.vht
+Z22 FWaveform2.vwf.vht
 l0
 L32 1
 VONYLfmN4i24ck=ed:=dcV3
@@ -81,27 +81,27 @@ R13
 R14
 !i10b 1
 R15
-Z22 !s90 -work|work|Waveform8.vwf.vht|
-Z23 !s107 Waveform8.vwf.vht|
+Z23 !s90 -work|work|Waveform2.vwf.vht|
+Z24 !s107 Waveform2.vwf.vht|
 !i113 1
 R18
 R19
 Acalculator_arch
 R7
 R8
-Z24 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
-!i122 73
-l59
-Z25 L34 140
-VC;ZV`c@H@YLDX_W<B0R7>0
-!s100 o@P5Mb][VPW5SF<CPedIU1
+Z25 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
+!i122 157
+l71
+Z26 L34 160
+VA;IZFO;DC0=T7CFD4dUiN3
+!s100 fe>TF;YJ9WZVd9a8]6Z^D0
 R13
 32
 R14
 !i10b 1
 R15
-R22
 R23
+R24
 !i113 1
 R18
 R19

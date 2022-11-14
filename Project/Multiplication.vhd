@@ -36,7 +36,7 @@ begin
 			case state is 
 				
 				when S0 =>  -- check Start for Multipli process
-					if S_Start ='1' then
+					if S_Start ='0' then
 						Data_A (N-1 downto 0) <= A; --keep data A
 						Data_B <= B;					--Keep data B
 						state <= S1;					--goto S1 when START bit Active
