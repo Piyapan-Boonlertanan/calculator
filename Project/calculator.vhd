@@ -86,31 +86,31 @@ architecture struct of calculator is
 							B_OVERFLOW => overflow_div);
 							
 		convert_binary	:	entity work.BCD_2_digit_7_seg_display(Behavioral)
-													port map(
-													clk_i => CLK,
-													rst_i => RST_N,
-													mode => Operation,
-													overflow => '1',
-													result_add => Result_add,
-													result_sub => Result_sub,
-													result_multi => Result_multi,
-													result_division => Result_division,
-													Done_add => done_add,
-													Done_sub => done_sub,
-													Done_multi => done_multi,
-													Done_division => done_division,
-													Result => Result,
-													Remainder => Remainder,
-													Done => Done,
-													Remainder_division => Remainder_division,
-													BCD_digit_1 => BCD_data_digit_1,
-													BCD_digit_2 => BCD_data_digit_2,
-													BCD_digit_3 => BCD_data_digit_3,
-													BCD_digit_4r => BCD_data_digit_4r,
-													BCD_digit_5r => BCD_data_digit_5r,
-													BCD_digit_6r => BCD_data_digit_6r,
-													Overflow_sub => overflow_sub,
-													B_overflow_div => overflow_div);
+									port map(
+									clk_i => CLK,
+									rst_i => RST_N,
+									mode => Operation,
+									overflow => '1',
+									result_add => Result_add,
+									result_sub => Result_sub,
+									result_multi => Result_multi,
+									result_division => Result_division,
+									Done_add => done_add,
+									Done_sub => done_sub,
+									Done_multi => done_multi,
+									Done_division => done_division,
+									Result => Result,
+									Remainder => Remainder,
+									Done => Done,
+									Remainder_division => Remainder_division,
+									BCD_digit_1 => BCD_data_digit_1,
+									BCD_digit_2 => BCD_data_digit_2,
+									BCD_digit_3 => BCD_data_digit_3,
+									BCD_digit_4r => BCD_data_digit_4r,
+									BCD_digit_5r => BCD_data_digit_5r,
+									BCD_digit_6r => BCD_data_digit_6r,
+									Overflow_sub => overflow_sub,
+									B_overflow_div => overflow_div);
 													
 													
 		seven_seg_display_1	:	entity work.BCD_to_7_segmen(data_process)
