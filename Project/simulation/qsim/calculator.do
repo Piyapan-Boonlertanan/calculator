@@ -1,7 +1,7 @@
 onerror {exit -code 1}
 vlib work
 vcom -work work calculator.vho
-vcom -work work Waveform10.vwf.vht
+vcom -work work Waveform1.vwf.vht
 vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.calculator_vhd_vec_tst
 vcd file -direction calculator.msim.vcd
 vcd add -internal calculator_vhd_vec_tst/*
@@ -15,17 +15,3 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4

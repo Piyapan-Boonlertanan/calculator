@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-Analysis & Synthesis Status : Successful - Mon Nov 14 21:31:19 2022
-=======
-Analysis & Synthesis Status : Successful - Mon Nov 14 21:03:02 2022
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+Analysis & Synthesis Status : Successful - Mon Nov 14 22:26:57 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : calculator
 Top-level Entity Name : calculator
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-<<<<<<< HEAD
 Total registers : 310
-=======
-Total registers : 309
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 Total pins : 78
 Total virtual pins : 0
 Total block memory bits : 0

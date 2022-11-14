@@ -1253,7 +1253,30 @@ Overflow_sub => Mux15.IN5
 Overflow_sub => Mux17.IN5
 Overflow_sub => Mux19.IN5
 Overflow_sub => Mux21.IN5
-B_overflow_div => ~NO_FANOUT~
+B_overflow_div => int_data_6r.OUTPUTSELECT
+B_overflow_div => int_data_6r.OUTPUTSELECT
+B_overflow_div => int_data_6r.OUTPUTSELECT
+B_overflow_div => int_data_6r.OUTPUTSELECT
+B_overflow_div => int_data_5r.OUTPUTSELECT
+B_overflow_div => int_data_5r.OUTPUTSELECT
+B_overflow_div => int_data_5r.OUTPUTSELECT
+B_overflow_div => int_data_5r.OUTPUTSELECT
+B_overflow_div => int_data_4r.OUTPUTSELECT
+B_overflow_div => int_data_4r.OUTPUTSELECT
+B_overflow_div => int_data_4r.OUTPUTSELECT
+B_overflow_div => int_data_4r.OUTPUTSELECT
+B_overflow_div => int_data_3.OUTPUTSELECT
+B_overflow_div => int_data_3.OUTPUTSELECT
+B_overflow_div => int_data_3.OUTPUTSELECT
+B_overflow_div => int_data_3.OUTPUTSELECT
+B_overflow_div => int_data_2.OUTPUTSELECT
+B_overflow_div => int_data_2.OUTPUTSELECT
+B_overflow_div => int_data_2.OUTPUTSELECT
+B_overflow_div => int_data_2.OUTPUTSELECT
+B_overflow_div => int_data_1.OUTPUTSELECT
+B_overflow_div => int_data_1.OUTPUTSELECT
+B_overflow_div => int_data_1.OUTPUTSELECT
+B_overflow_div => int_data_1.OUTPUTSELECT
 
 
 |calculator|BCD_to_7_segmen:seven_seg_display_1

@@ -98,7 +98,6 @@ signal int_data_6r : integer := 0;
 							Remainder <= Remainder_division;
 							Done <= done_division;
 							
-<<<<<<< HEAD
 							if B_overflow_div = '0'  then
 								int_data_6r <= 10;
 								int_data_5r <= 10;
@@ -114,23 +113,6 @@ signal int_data_6r : integer := 0;
 								int_data_2 <= ((conv_integer (unsigned(Result_division)) / 10) mod 10);
 								int_data_1 <= conv_integer (unsigned(Result_division)) / 100;
 							end if;
-=======
-							int_data_6r <= conv_integer (unsigned(Remainder_division)) mod 10;
-							int_data_5r <= ((conv_integer (unsigned(Remainder_division)) / 10) mod 10);
-							int_data_4r <= conv_integer (unsigned(Remainder_division)) / 100;
-							int_data_3 <= conv_integer (unsigned(Result_division)) mod 10;
-							int_data_2 <= ((conv_integer (unsigned(Result_division)) / 10) mod 10);
-							int_data_1 <= conv_integer (unsigned(Result_division)) / 100;
-							
---							if B_overflow_div = '1' then
---								int_data_6r <= 10;
---								int_data_5r <= 10;
---								int_data_4r <= 10;
---								int_data_3 <= 10;
---								int_data_2 <= 10;
---								int_data_1 <= 10;
---							end if;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 						
 					end case;
 							

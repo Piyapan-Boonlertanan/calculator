@@ -17,11 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
 
-<<<<<<< HEAD
--- DATE "11/14/2022 21:36:04"
-=======
--- DATE "11/14/2022 21:02:25"
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+-- DATE "11/14/2022 22:31:18"
 
 -- 
 -- Device: Altera 5CEBA4F23C7 Package FBGA484
@@ -3090,7 +3086,6 @@ SIGNAL \convert_binary|int_data_5r\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \convert_binary|int_data_6r\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \sub|cout\ : std_logic_vector(5 DOWNTO 0);
 SIGNAL \multiplication|Data_B\ : std_logic_vector(4 DOWNTO 0);
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
@@ -3140,52 +3135,28 @@ SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumou
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \multiplication|ALT_INV_Data_Product\ : std_logic_vector(9 DOWNTO 0);
 SIGNAL \add|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \multiplication|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \division|ALT_INV_bit_counter\ : std_logic_vector(31 DOWNTO 0);
-<<<<<<< HEAD
-=======
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-<<<<<<< HEAD
-=======
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
@@ -3201,13 +3172,10 @@ SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_8~5_sumout
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
@@ -3218,32 +3186,10 @@ SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
@@ -3295,53 +3241,21 @@ SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_9~13_sumou
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add2~1_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-<<<<<<< HEAD
-=======
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
@@ -3432,41 +3346,6 @@ SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_res
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ : std_logic;
-SIGNAL \add|ALT_INV_Add0~9_sumout\ : std_logic;
-SIGNAL \add|ALT_INV_Add0~5_sumout\ : std_logic;
-SIGNAL \add|ALT_INV_Add0~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \division|ALT_INV_Add1~37_sumout\ : std_logic;
 SIGNAL \division|ALT_INV_Add0~37_sumout\ : std_logic;
 SIGNAL \division|ALT_INV_Add0~33_sumout\ : std_logic;
@@ -3481,40 +3360,6 @@ SIGNAL \division|ALT_INV_Add0~17_sumout\ : std_logic;
 SIGNAL \division|ALT_INV_Add1~17_sumout\ : std_logic;
 SIGNAL \division|ALT_INV_Add0~13_sumout\ : std_logic;
 SIGNAL \division|ALT_INV_Add1~13_sumout\ : std_logic;
-<<<<<<< HEAD
-=======
-SIGNAL \division|ALT_INV_Add0~9_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add1~9_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add0~5_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add1~5_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add0~1_sumout\ : std_logic;
-SIGNAL \division|ALT_INV_Add1~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ : std_logic;
@@ -3549,65 +3394,12 @@ SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~13_sumou
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
@@ -3629,7 +3421,6 @@ SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~13_sumou
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ : std_logic;
@@ -3800,12 +3591,6 @@ SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_7~21_sumou
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ : std_logic;
@@ -3842,48 +3627,6 @@ SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_res
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ : std_logic;
-<<<<<<< HEAD
-=======
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ : std_logic;
 SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ : std_logic;
@@ -3935,7 +3678,6 @@ SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ : std_logic;
@@ -3988,27 +3730,6 @@ SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumou
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
@@ -4055,7 +3776,6 @@ SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~29_sumou
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \ALT_INV_Start~input_o\ : std_logic;
 SIGNAL \ALT_INV_B[3]~input_o\ : std_logic;
 SIGNAL \ALT_INV_B[2]~input_o\ : std_logic;
@@ -4168,383 +3888,6 @@ SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[51]~
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ : std_logic;
 SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ : std_logic;
-=======
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[0]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~5_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~4_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~3_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~2_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~1_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_LessThan0~0_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_state~q\ : std_logic;
-SIGNAL \division|ALT_INV_state.S1~q\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~5_combout\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~4_combout\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~3_combout\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~2_combout\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~1_combout\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_int_data_4r\ : std_logic_vector(1 DOWNTO 1);
-SIGNAL \convert_binary|ALT_INV_int_data_3\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_data_2\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \convert_binary|ALT_INV_int_data_1\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \division|ALT_INV_DONE~q\ : std_logic;
-SIGNAL \multiplication|ALT_INV_DONE~q\ : std_logic;
-SIGNAL \add|ALT_INV_DONE~q\ : std_logic;
-SIGNAL \add|ALT_INV_sum\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \sub|ALT_INV_sum\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \multiplication|ALT_INV_R\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \division|ALT_INV_Q\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \multiplication|ALT_INV_Data_B\ : std_logic_vector(4 DOWNTO 0);
-SIGNAL \division|ALT_INV_Selector21~0_combout\ : std_logic;
-SIGNAL \division|ALT_INV_state.S0~q\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux23~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux23~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux23~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux23~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux24~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux24~1_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux24~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux25~3_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux25~2_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux25~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux25~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux26~2_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux26~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux26~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux27~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux27~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux27~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux27~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux28~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux28~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux28~2_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux28~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux28~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux29~3_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux29~2_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux29~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux29~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux33~1_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_int_data_1[1]~0_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux30~0_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout_sub_overflow~q\ : std_logic;
-SIGNAL \division|ALT_INV_state.S2~q\ : std_logic;
-SIGNAL \division|ALT_INV_LessThan0~6_combout\ : std_logic;
-SIGNAL \division|ALT_INV_Data_A\ : std_logic_vector(9 DOWNTO 0);
-SIGNAL \add|ALT_INV_Decoder0~5_combout\ : std_logic;
-SIGNAL \add|ALT_INV_Decoder0~3_combout\ : std_logic;
-SIGNAL \add|ALT_INV_Mux2~1_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout\ : std_logic_vector(5 DOWNTO 0);
-SIGNAL \add|ALT_INV_Mux2~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_Decoder0~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~5_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~4_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~3_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~2_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~1_combout\ : std_logic;
-SIGNAL \add|ALT_INV_LessThan0~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_state~q\ : std_logic;
-SIGNAL \sub|ALT_INV_Mux2~1_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout\ : std_logic_vector(5 DOWNTO 0);
-SIGNAL \sub|ALT_INV_Mux2~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_Mux0~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_Mux1~0_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout[4]~9_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout[3]~5_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout[5]~3_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout[0]~1_combout\ : std_logic;
-SIGNAL \add|ALT_INV_cout~0_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[4]~10_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[5]~8_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[3]~6_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[2]~4_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_cout[1]~2_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_Mux0~0_combout\ : std_logic;
-SIGNAL \sub|ALT_INV_Mux1~0_combout\ : std_logic;
-SIGNAL \multiplication|ALT_INV_Mux0~0_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ : std_logic;
-SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ : std_logic;
-SIGNAL \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ : std_logic;
 SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ : std_logic;
@@ -4749,7 +4092,6 @@ SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[50]~
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[59]~13_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[50]~12_combout\ : std_logic;
 SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[50]~11_combout\ : std_logic;
-<<<<<<< HEAD
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_StageOut[59]~13_combout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_StageOut[50]~12_combout\ : std_logic;
 SIGNAL \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_StageOut[50]~11_combout\ : std_logic;
@@ -5298,77 +4640,6 @@ SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~37_sumou
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ : std_logic;
 SIGNAL \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ : std_logic;
-=======
-SIGNAL \ALT_INV_B[4]~input_o\ : std_logic;
-SIGNAL \ALT_INV_RST_N~input_o\ : std_logic;
-SIGNAL \ALT_INV_Operation[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_Operation[0]~input_o\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux30~3_combout\ : std_logic;
-SIGNAL \convert_binary|ALT_INV_Mux30~2_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ : std_logic;
-SIGNAL \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ : std_logic;
-SIGNAL \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ : std_logic;
-SIGNAL \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ : std_logic;
-SIGNAL \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ : std_logic;
-SIGNAL \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ : std_logic;
-SIGNAL \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ : std_logic;
-SIGNAL \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ : std_logic;
-SIGNAL \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ : std_logic;
-SIGNAL \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ : std_logic;
-SIGNAL \ALT_INV_Start~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[0]~input_o\ : std_logic;
-SIGNAL \ALT_INV_A[4]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[3]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[2]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_B[0]~input_o\ : std_logic;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 
 BEGIN
 
@@ -5390,7 +4661,6 @@ seven_seg_digit_6r <= ww_seven_seg_digit_6r;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-<<<<<<< HEAD
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~33_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~37_sumout\;
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~37_sumout\;
@@ -5460,37 +4730,10 @@ ww_devpor <= devpor;
 \add|ALT_INV_bit_counter\(20) <= NOT \add|bit_counter\(20);
 \add|ALT_INV_bit_counter\(19) <= NOT \add|bit_counter\(19);
 \add|ALT_INV_bit_counter\(5) <= NOT \add|bit_counter\(5);
-=======
-\multiplication|ALT_INV_Data_Product\(1) <= NOT \multiplication|Data_Product\(1);
-\add|ALT_INV_bit_counter\(8) <= NOT \add|bit_counter\(8);
-\add|ALT_INV_bit_counter\(9) <= NOT \add|bit_counter\(9);
-\add|ALT_INV_bit_counter\(10) <= NOT \add|bit_counter\(10);
-\add|ALT_INV_bit_counter\(4) <= NOT \add|bit_counter\(4);
-\add|ALT_INV_bit_counter\(13) <= NOT \add|bit_counter\(13);
-\add|ALT_INV_bit_counter\(12) <= NOT \add|bit_counter\(12);
-\add|ALT_INV_bit_counter\(11) <= NOT \add|bit_counter\(11);
-\add|ALT_INV_bit_counter\(5) <= NOT \add|bit_counter\(5);
-\add|ALT_INV_bit_counter\(6) <= NOT \add|bit_counter\(6);
-\add|ALT_INV_bit_counter\(7) <= NOT \add|bit_counter\(7);
-\add|ALT_INV_bit_counter\(20) <= NOT \add|bit_counter\(20);
-\add|ALT_INV_bit_counter\(19) <= NOT \add|bit_counter\(19);
-\add|ALT_INV_bit_counter\(18) <= NOT \add|bit_counter\(18);
-\add|ALT_INV_bit_counter\(16) <= NOT \add|bit_counter\(16);
-\add|ALT_INV_bit_counter\(15) <= NOT \add|bit_counter\(15);
-\add|ALT_INV_bit_counter\(14) <= NOT \add|bit_counter\(14);
-\add|ALT_INV_bit_counter\(25) <= NOT \add|bit_counter\(25);
-\add|ALT_INV_bit_counter\(24) <= NOT \add|bit_counter\(24);
-\add|ALT_INV_bit_counter\(23) <= NOT \add|bit_counter\(23);
-\add|ALT_INV_bit_counter\(17) <= NOT \add|bit_counter\(17);
-\add|ALT_INV_bit_counter\(22) <= NOT \add|bit_counter\(22);
-\add|ALT_INV_bit_counter\(21) <= NOT \add|bit_counter\(21);
-\add|ALT_INV_bit_counter\(30) <= NOT \add|bit_counter\(30);
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \add|ALT_INV_bit_counter\(29) <= NOT \add|bit_counter\(29);
 \add|ALT_INV_bit_counter\(28) <= NOT \add|bit_counter\(28);
 \add|ALT_INV_bit_counter\(27) <= NOT \add|bit_counter\(27);
 \add|ALT_INV_bit_counter\(26) <= NOT \add|bit_counter\(26);
-<<<<<<< HEAD
 \add|ALT_INV_bit_counter\(25) <= NOT \add|bit_counter\(25);
 \add|ALT_INV_bit_counter\(24) <= NOT \add|bit_counter\(24);
 \add|ALT_INV_bit_counter\(10) <= NOT \add|bit_counter\(10);
@@ -5498,19 +4741,11 @@ ww_devpor <= devpor;
 \add|ALT_INV_bit_counter\(15) <= NOT \add|bit_counter\(15);
 \add|ALT_INV_bit_counter\(9) <= NOT \add|bit_counter\(9);
 \add|ALT_INV_bit_counter\(30) <= NOT \add|bit_counter\(30);
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \add|ALT_INV_bit_counter\(31) <= NOT \add|bit_counter\(31);
 \add|ALT_INV_bit_counter\(3) <= NOT \add|bit_counter\(3);
 \add|ALT_INV_bit_counter\(1) <= NOT \add|bit_counter\(1);
 \add|ALT_INV_bit_counter\(0) <= NOT \add|bit_counter\(0);
 \add|ALT_INV_bit_counter\(2) <= NOT \add|bit_counter\(2);
-<<<<<<< HEAD
-=======
-\multiplication|ALT_INV_bit_counter\(12) <= NOT \multiplication|bit_counter\(12);
-\multiplication|ALT_INV_bit_counter\(11) <= NOT \multiplication|bit_counter\(11);
-\multiplication|ALT_INV_bit_counter\(10) <= NOT \multiplication|bit_counter\(10);
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \multiplication|ALT_INV_bit_counter\(9) <= NOT \multiplication|bit_counter\(9);
 \multiplication|ALT_INV_bit_counter\(8) <= NOT \multiplication|bit_counter\(8);
 \multiplication|ALT_INV_bit_counter\(7) <= NOT \multiplication|bit_counter\(7);
@@ -5518,7 +4753,6 @@ ww_devpor <= devpor;
 \multiplication|ALT_INV_bit_counter\(5) <= NOT \multiplication|bit_counter\(5);
 \multiplication|ALT_INV_bit_counter\(4) <= NOT \multiplication|bit_counter\(4);
 \multiplication|ALT_INV_bit_counter\(3) <= NOT \multiplication|bit_counter\(3);
-<<<<<<< HEAD
 \multiplication|ALT_INV_bit_counter\(30) <= NOT \multiplication|bit_counter\(30);
 \multiplication|ALT_INV_bit_counter\(29) <= NOT \multiplication|bit_counter\(29);
 \multiplication|ALT_INV_bit_counter\(28) <= NOT \multiplication|bit_counter\(28);
@@ -5556,37 +4790,12 @@ ww_devpor <= devpor;
 \division|ALT_INV_bit_counter\(19) <= NOT \division|bit_counter\(19);
 \division|ALT_INV_bit_counter\(1) <= NOT \division|bit_counter\(1);
 \division|ALT_INV_bit_counter\(2) <= NOT \division|bit_counter\(2);
-=======
-\multiplication|ALT_INV_bit_counter\(2) <= NOT \multiplication|bit_counter\(2);
-\multiplication|ALT_INV_bit_counter\(1) <= NOT \multiplication|bit_counter\(1);
-\multiplication|ALT_INV_bit_counter\(18) <= NOT \multiplication|bit_counter\(18);
-\multiplication|ALT_INV_bit_counter\(17) <= NOT \multiplication|bit_counter\(17);
-\multiplication|ALT_INV_bit_counter\(16) <= NOT \multiplication|bit_counter\(16);
-\multiplication|ALT_INV_bit_counter\(15) <= NOT \multiplication|bit_counter\(15);
-\multiplication|ALT_INV_bit_counter\(14) <= NOT \multiplication|bit_counter\(14);
-\multiplication|ALT_INV_bit_counter\(13) <= NOT \multiplication|bit_counter\(13);
-\multiplication|ALT_INV_bit_counter\(24) <= NOT \multiplication|bit_counter\(24);
-\multiplication|ALT_INV_bit_counter\(23) <= NOT \multiplication|bit_counter\(23);
-\multiplication|ALT_INV_bit_counter\(22) <= NOT \multiplication|bit_counter\(22);
-\multiplication|ALT_INV_bit_counter\(21) <= NOT \multiplication|bit_counter\(21);
-\multiplication|ALT_INV_bit_counter\(20) <= NOT \multiplication|bit_counter\(20);
-\multiplication|ALT_INV_bit_counter\(19) <= NOT \multiplication|bit_counter\(19);
-\multiplication|ALT_INV_bit_counter\(30) <= NOT \multiplication|bit_counter\(30);
-\multiplication|ALT_INV_bit_counter\(29) <= NOT \multiplication|bit_counter\(29);
-\multiplication|ALT_INV_bit_counter\(28) <= NOT \multiplication|bit_counter\(28);
-\multiplication|ALT_INV_bit_counter\(27) <= NOT \multiplication|bit_counter\(27);
-\multiplication|ALT_INV_bit_counter\(26) <= NOT \multiplication|bit_counter\(26);
-\multiplication|ALT_INV_bit_counter\(25) <= NOT \multiplication|bit_counter\(25);
-\multiplication|ALT_INV_bit_counter\(31) <= NOT \multiplication|bit_counter\(31);
-\multiplication|ALT_INV_Data_Product\(0) <= NOT \multiplication|Data_Product\(0);
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \division|ALT_INV_bit_counter\(13) <= NOT \division|bit_counter\(13);
 \division|ALT_INV_bit_counter\(12) <= NOT \division|bit_counter\(12);
 \division|ALT_INV_bit_counter\(11) <= NOT \division|bit_counter\(11);
 \division|ALT_INV_bit_counter\(10) <= NOT \division|bit_counter\(10);
 \division|ALT_INV_bit_counter\(9) <= NOT \division|bit_counter\(9);
 \division|ALT_INV_bit_counter\(8) <= NOT \division|bit_counter\(8);
-<<<<<<< HEAD
 \division|ALT_INV_bit_counter\(21) <= NOT \division|bit_counter\(21);
 \division|ALT_INV_bit_counter\(20) <= NOT \division|bit_counter\(20);
 \division|ALT_INV_bit_counter\(27) <= NOT \division|bit_counter\(27);
@@ -5599,69 +4808,24 @@ ww_devpor <= devpor;
 \division|ALT_INV_bit_counter\(24) <= NOT \division|bit_counter\(24);
 \division|ALT_INV_bit_counter\(23) <= NOT \division|bit_counter\(23);
 \division|ALT_INV_bit_counter\(26) <= NOT \division|bit_counter\(26);
-=======
-\division|ALT_INV_bit_counter\(7) <= NOT \division|bit_counter\(7);
-\division|ALT_INV_bit_counter\(6) <= NOT \division|bit_counter\(6);
-\division|ALT_INV_bit_counter\(5) <= NOT \division|bit_counter\(5);
-\division|ALT_INV_bit_counter\(4) <= NOT \division|bit_counter\(4);
-\division|ALT_INV_bit_counter\(1) <= NOT \division|bit_counter\(1);
-\division|ALT_INV_bit_counter\(2) <= NOT \division|bit_counter\(2);
-\division|ALT_INV_bit_counter\(19) <= NOT \division|bit_counter\(19);
-\division|ALT_INV_bit_counter\(18) <= NOT \division|bit_counter\(18);
-\division|ALT_INV_bit_counter\(17) <= NOT \division|bit_counter\(17);
-\division|ALT_INV_bit_counter\(16) <= NOT \division|bit_counter\(16);
-\division|ALT_INV_bit_counter\(15) <= NOT \division|bit_counter\(15);
-\division|ALT_INV_bit_counter\(14) <= NOT \division|bit_counter\(14);
-\division|ALT_INV_bit_counter\(25) <= NOT \division|bit_counter\(25);
-\division|ALT_INV_bit_counter\(24) <= NOT \division|bit_counter\(24);
-\division|ALT_INV_bit_counter\(23) <= NOT \division|bit_counter\(23);
-\division|ALT_INV_bit_counter\(22) <= NOT \division|bit_counter\(22);
-\division|ALT_INV_bit_counter\(21) <= NOT \division|bit_counter\(21);
-\division|ALT_INV_bit_counter\(20) <= NOT \division|bit_counter\(20);
-\division|ALT_INV_bit_counter\(3) <= NOT \division|bit_counter\(3);
-\division|ALT_INV_bit_counter\(29) <= NOT \division|bit_counter\(29);
-\division|ALT_INV_bit_counter\(30) <= NOT \division|bit_counter\(30);
-\division|ALT_INV_bit_counter\(28) <= NOT \division|bit_counter\(28);
-\division|ALT_INV_bit_counter\(27) <= NOT \division|bit_counter\(27);
-\division|ALT_INV_bit_counter\(26) <= NOT \division|bit_counter\(26);
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~1_sumout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~1_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~17_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~17_sumout\;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~1_sumout\;
 \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~1_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~17_sumout\;
-<<<<<<< HEAD
-=======
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~17_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~1_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_7~1_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~5_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~1_sumout\;
@@ -5677,13 +4841,10 @@ ww_devpor <= devpor;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|op_8~1_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_8~1_sumout\;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|op_10~13_sumout\;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~5_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~1_sumout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~1_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~13_sumout\;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|op_9~5_sumout\;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|op_9~1_sumout\;
@@ -5694,32 +4855,10 @@ ww_devpor <= devpor;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~9_sumout\;
-=======
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~1_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~5_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~1_sumout\;
 \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~1_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~9_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~5_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~1_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~1_sumout\;
@@ -5751,35 +4890,11 @@ ww_devpor <= devpor;
 \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_10~1_sumout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_10~1_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|op_10~1_sumout\;
-=======
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[7]~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[7]~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_10~1_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_10~1_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_10~1_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \multiplication|ALT_INV_Data_Product\(9) <= NOT \multiplication|Data_Product\(9);
 \multiplication|ALT_INV_Data_Product\(8) <= NOT \multiplication|Data_Product\(8);
 \multiplication|ALT_INV_Data_Product\(7) <= NOT \multiplication|Data_Product\(7);
 \multiplication|ALT_INV_Data_Product\(6) <= NOT \multiplication|Data_Product\(6);
 \multiplication|ALT_INV_Data_Product\(5) <= NOT \multiplication|Data_Product\(5);
-<<<<<<< HEAD
 \convert_binary|Mod7|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod7|auto_generated|divider|divider|op_8~5_sumout\;
 \convert_binary|Mod7|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod7|auto_generated|divider|divider|op_8~1_sumout\;
 \convert_binary|Div6|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Div6|auto_generated|divider|divider|op_8~1_sumout\;
@@ -5800,36 +4915,21 @@ ww_devpor <= devpor;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_7~1_sumout\;
-=======
-\multiplication|ALT_INV_Data_Product\(4) <= NOT \multiplication|Data_Product\(4);
-\multiplication|ALT_INV_Data_Product\(3) <= NOT \multiplication|Data_Product\(3);
-\multiplication|ALT_INV_Data_Product\(2) <= NOT \multiplication|Data_Product\(2);
-\multiplication|ALT_INV_bit_counter\(0) <= NOT \multiplication|bit_counter\(0);
-\division|ALT_INV_Add2~1_sumout\ <= NOT \division|Add2~1_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~17_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~1_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\;
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~1_sumout\;
-<<<<<<< HEAD
-=======
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~17_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~17_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_10~17_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~9_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~5_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~1_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\;
@@ -5921,41 +5021,6 @@ ww_devpor <= devpor;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
-=======
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_10~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_10~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_10~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_10~9_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~5_sumout\;
-\add|ALT_INV_Add0~9_sumout\ <= NOT \add|Add0~9_sumout\;
-\add|ALT_INV_Add0~5_sumout\ <= NOT \add|Add0~5_sumout\;
-\add|ALT_INV_Add0~1_sumout\ <= NOT \add|Add0~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[6]~5_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[6]~5_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \division|ALT_INV_Add1~37_sumout\ <= NOT \division|Add1~37_sumout\;
 \division|ALT_INV_Add0~37_sumout\ <= NOT \division|Add0~37_sumout\;
 \division|ALT_INV_Add0~33_sumout\ <= NOT \division|Add0~33_sumout\;
@@ -5970,40 +5035,6 @@ ww_devpor <= devpor;
 \division|ALT_INV_Add1~17_sumout\ <= NOT \division|Add1~17_sumout\;
 \division|ALT_INV_Add0~13_sumout\ <= NOT \division|Add0~13_sumout\;
 \division|ALT_INV_Add1~13_sumout\ <= NOT \division|Add1~13_sumout\;
-<<<<<<< HEAD
-=======
-\division|ALT_INV_Add0~9_sumout\ <= NOT \division|Add0~9_sumout\;
-\division|ALT_INV_Add1~9_sumout\ <= NOT \division|Add1~9_sumout\;
-\division|ALT_INV_Add0~5_sumout\ <= NOT \division|Add0~5_sumout\;
-\division|ALT_INV_Add1~5_sumout\ <= NOT \division|Add1~5_sumout\;
-\division|ALT_INV_Add0~1_sumout\ <= NOT \division|Add0~1_sumout\;
-\division|ALT_INV_Add1~1_sumout\ <= NOT \division|Add1~1_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[4]~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[5]~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[4]~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[5]~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~9_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~9_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~9_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~13_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[5]~13_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|op_8~13_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[5]~13_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|add_sub_6_result_int[5]~13_sumout\;
@@ -6016,7 +5047,6 @@ ww_devpor <= devpor;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~9_sumout\;
-<<<<<<< HEAD
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[4]~9_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|add_sub_6_result_int[4]~9_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_9~9_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|op_9~9_sumout\;
 \convert_binary|Div9|auto_generated|divider|divider|ALT_INV_op_8~9_sumout\ <= NOT \convert_binary|Div9|auto_generated|divider|divider|op_8~9_sumout\;
@@ -6024,8 +5054,6 @@ ww_devpor <= devpor;
 \division|ALT_INV_Data_B\(7) <= NOT \division|Data_B\(7);
 \division|ALT_INV_Data_B\(6) <= NOT \division|Data_B\(6);
 \division|ALT_INV_Data_B\(5) <= NOT \division|Data_B\(5);
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \division|ALT_INV_Data_B\(4) <= NOT \division|Data_B\(4);
 \division|ALT_INV_Data_B\(3) <= NOT \division|Data_B\(3);
 \division|ALT_INV_Data_B\(2) <= NOT \division|Data_B\(2);
@@ -6054,65 +5082,12 @@ ww_devpor <= devpor;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_8~13_sumout\;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_9~17_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~17_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~17_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_6~9_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_5~5_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_5~1_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_8~13_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_7~13_sumout\;
-=======
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~5_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~1_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|add_sub_3_result_int[1]~9_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~5_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[0]~5_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~1_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[4]~1_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~13_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_8~13_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~13_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_7~13_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~25_sumout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_6~9_sumout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~5_sumout\;
@@ -6134,7 +5109,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[4]~5_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[5]~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[5]~1_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~5_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~1_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~1_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_7~9_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_7~9_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_6~5_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_6~5_sumout\;
@@ -6306,12 +5280,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~21_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~21_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~21_sumout\;
-=======
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~25_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~25_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~13_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|add_sub_3_result_int[3]~13_sumout\;
 \convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~25_sumout\;
@@ -6348,49 +5316,6 @@ ww_devpor <= devpor;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~13_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~17_sumout\;
 \convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
-<<<<<<< HEAD
-=======
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_8~17_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[3]~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[3]~17_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~13_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~13_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~17_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~17_sumout\;
-\division|ALT_INV_bit_counter\(0) <= NOT \division|bit_counter\(0);
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~17_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[4]~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[4]~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[3]~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[3]~1_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~5_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~5_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~1_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~1_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_5~25_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_5~25_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~17_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_8~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[2]~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[2]~13_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_5~25_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_5~25_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|add_sub_3_result_int[2]~17_sumout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_9~17_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Div2|auto_generated|divider|divider|ALT_INV_op_8~21_sumout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|op_8~21_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[2]~21_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[2]~21_sumout\;
 \convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~17_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~17_sumout\;
@@ -6442,7 +5367,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~9_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~9_sumout\;
-<<<<<<< HEAD
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~33_sumout\;
 \convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~33_sumout\;
 \convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
@@ -6495,27 +5419,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
 \convert_binary|Mod9|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod9|auto_generated|divider|divider|op_6~17_sumout\;
 \convert_binary|Div8|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div8|auto_generated|divider|divider|op_9~21_sumout\;
-=======
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[2]~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[2]~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~9_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~9_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~9_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~21_sumout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
 \convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~17_sumout\;
 \convert_binary|Div0|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|op_9~21_sumout\;
@@ -6562,7 +5465,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_8~29_sumout\;
 \convert_binary|Mod8|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod8|auto_generated|divider|divider|op_9~33_sumout\;
 \convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~33_sumout\;
-<<<<<<< HEAD
 \ALT_INV_Start~input_o\ <= NOT \Start~input_o\;
 \ALT_INV_B[3]~input_o\ <= NOT \B[3]~input_o\;
 \ALT_INV_B[2]~input_o\ <= NOT \B[2]~input_o\;
@@ -7323,95 +6225,6 @@ ww_devpor <= devpor;
 \sub|ALT_INV_cout\(0) <= NOT \sub|cout\(0);
 \add|ALT_INV_Mux1~0_combout\ <= NOT \add|Mux1~0_combout\;
 \add|ALT_INV_Mux0~0_combout\ <= NOT \add|Mux0~0_combout\;
-=======
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[1]~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[1]~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~13_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~13_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~13_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~25_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~25_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~21_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~21_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~21_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_9~41_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_9~41_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[0]~21_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|add_sub_4_result_int[0]~21_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[0]~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|add_sub_4_result_int[0]~21_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~21_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~21_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_add_sub_6_result_int[0]~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|add_sub_6_result_int[0]~29_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~25_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~25_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~29_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~29_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~29_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_9~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_9~37_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_5~17_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_5~17_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_add_sub_3_result_int[0]~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|add_sub_3_result_int[0]~17_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_5~17_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_5~17_sumout\;
-\sub|ALT_INV_cout[0]~12_combout\ <= NOT \sub|cout[0]~12_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_op_6~25_sumout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|op_6~25_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_9~29_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_9~29_sumout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_op_8~33_sumout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|op_8~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_7~33_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_7~33_sumout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|op_8~37_sumout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_op_8~37_sumout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|op_8~37_sumout\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 \multiplication|ALT_INV_LessThan0~5_combout\ <= NOT \multiplication|LessThan0~5_combout\;
 \multiplication|ALT_INV_LessThan0~4_combout\ <= NOT \multiplication|LessThan0~4_combout\;
 \multiplication|ALT_INV_LessThan0~3_combout\ <= NOT \multiplication|LessThan0~3_combout\;
@@ -7504,7 +6317,6 @@ ww_devpor <= devpor;
 \sub|ALT_INV_sum\(0) <= NOT \sub|sum\(0);
 \multiplication|ALT_INV_R\(0) <= NOT \multiplication|R\(0);
 \division|ALT_INV_Q\(0) <= NOT \division|Q\(0);
-<<<<<<< HEAD
 \convert_binary|ALT_INV_Mux29~10_combout\ <= NOT \convert_binary|Mux29~10_combout\;
 \convert_binary|ALT_INV_Mux29~6_combout\ <= NOT \convert_binary|Mux29~6_combout\;
 \convert_binary|ALT_INV_Mux28~12_combout\ <= NOT \convert_binary|Mux28~12_combout\;
@@ -7609,499 +6421,6 @@ ww_devpor <= devpor;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_add_sub_4_result_int[1]~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|add_sub_4_result_int[1]~17_sumout\;
 \convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_op_6~17_sumout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|op_6~17_sumout\;
 \convert_binary|Div4|auto_generated|divider|divider|ALT_INV_op_9~21_sumout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|op_9~21_sumout\;
-=======
-\multiplication|ALT_INV_Data_B\(4) <= NOT \multiplication|Data_B\(4);
-\division|ALT_INV_Selector21~0_combout\ <= NOT \division|Selector21~0_combout\;
-\division|ALT_INV_state.S0~q\ <= NOT \division|state.S0~q\;
-\convert_binary|ALT_INV_Mux23~3_combout\ <= NOT \convert_binary|Mux23~3_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux23~2_combout\ <= NOT \convert_binary|Mux23~2_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux23~1_combout\ <= NOT \convert_binary|Mux23~1_combout\;
-\convert_binary|ALT_INV_Mux23~0_combout\ <= NOT \convert_binary|Mux23~0_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux24~2_combout\ <= NOT \convert_binary|Mux24~2_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux24~1_combout\ <= NOT \convert_binary|Mux24~1_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux24~0_combout\ <= NOT \convert_binary|Mux24~0_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux25~3_combout\ <= NOT \convert_binary|Mux25~3_combout\;
-\convert_binary|ALT_INV_Mux25~2_combout\ <= NOT \convert_binary|Mux25~2_combout\;
-\convert_binary|ALT_INV_Mux25~1_combout\ <= NOT \convert_binary|Mux25~1_combout\;
-\convert_binary|ALT_INV_Mux25~0_combout\ <= NOT \convert_binary|Mux25~0_combout\;
-\convert_binary|ALT_INV_Mux26~2_combout\ <= NOT \convert_binary|Mux26~2_combout\;
-\convert_binary|ALT_INV_Mux26~1_combout\ <= NOT \convert_binary|Mux26~1_combout\;
-\convert_binary|ALT_INV_Mux26~0_combout\ <= NOT \convert_binary|Mux26~0_combout\;
-\convert_binary|ALT_INV_Mux27~3_combout\ <= NOT \convert_binary|Mux27~3_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux27~2_combout\ <= NOT \convert_binary|Mux27~2_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux27~1_combout\ <= NOT \convert_binary|Mux27~1_combout\;
-\convert_binary|ALT_INV_Mux27~0_combout\ <= NOT \convert_binary|Mux27~0_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[71]~2_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[71]~2_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[60]~1_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[60]~1_combout\;
-\convert_binary|ALT_INV_Mux28~4_combout\ <= NOT \convert_binary|Mux28~4_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux28~3_combout\ <= NOT \convert_binary|Mux28~3_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux28~2_combout\ <= NOT \convert_binary|Mux28~2_combout\;
-\convert_binary|ALT_INV_Mux28~1_combout\ <= NOT \convert_binary|Mux28~1_combout\;
-\convert_binary|ALT_INV_Mux28~0_combout\ <= NOT \convert_binary|Mux28~0_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[70]~0_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[70]~0_combout\;
-\convert_binary|ALT_INV_Mux29~3_combout\ <= NOT \convert_binary|Mux29~3_combout\;
-\convert_binary|ALT_INV_Mux29~2_combout\ <= NOT \convert_binary|Mux29~2_combout\;
-\convert_binary|ALT_INV_Mux29~1_combout\ <= NOT \convert_binary|Mux29~1_combout\;
-\convert_binary|ALT_INV_Mux29~0_combout\ <= NOT \convert_binary|Mux29~0_combout\;
-\convert_binary|ALT_INV_Mux33~1_combout\ <= NOT \convert_binary|Mux33~1_combout\;
-\convert_binary|ALT_INV_int_data_1[1]~0_combout\ <= NOT \convert_binary|int_data_1[1]~0_combout\;
-\convert_binary|ALT_INV_Mux30~0_combout\ <= NOT \convert_binary|Mux30~0_combout\;
-\sub|ALT_INV_cout_sub_overflow~q\ <= NOT \sub|cout_sub_overflow~q\;
-\division|ALT_INV_state.S2~q\ <= NOT \division|state.S2~q\;
-\division|ALT_INV_LessThan0~6_combout\ <= NOT \division|LessThan0~6_combout\;
-\division|ALT_INV_Data_A\(9) <= NOT \division|Data_A\(9);
-\division|ALT_INV_Data_A\(8) <= NOT \division|Data_A\(8);
-\division|ALT_INV_Data_A\(7) <= NOT \division|Data_A\(7);
-\division|ALT_INV_Data_A\(6) <= NOT \division|Data_A\(6);
-\division|ALT_INV_Data_A\(5) <= NOT \division|Data_A\(5);
-\division|ALT_INV_Data_A\(4) <= NOT \division|Data_A\(4);
-\division|ALT_INV_Data_A\(3) <= NOT \division|Data_A\(3);
-\division|ALT_INV_Data_A\(2) <= NOT \division|Data_A\(2);
-\division|ALT_INV_Data_A\(1) <= NOT \division|Data_A\(1);
-\division|ALT_INV_Data_A\(0) <= NOT \division|Data_A\(0);
-\add|ALT_INV_Decoder0~5_combout\ <= NOT \add|Decoder0~5_combout\;
-\add|ALT_INV_Decoder0~3_combout\ <= NOT \add|Decoder0~3_combout\;
-\add|ALT_INV_Mux2~1_combout\ <= NOT \add|Mux2~1_combout\;
-\add|ALT_INV_cout\(4) <= NOT \add|cout\(4);
-\add|ALT_INV_cout\(5) <= NOT \add|cout\(5);
-\add|ALT_INV_Mux2~0_combout\ <= NOT \add|Mux2~0_combout\;
-\add|ALT_INV_cout\(3) <= NOT \add|cout\(3);
-\add|ALT_INV_cout\(2) <= NOT \add|cout\(2);
-\add|ALT_INV_cout\(1) <= NOT \add|cout\(1);
-\add|ALT_INV_cout\(0) <= NOT \add|cout\(0);
-\add|ALT_INV_Decoder0~0_combout\ <= NOT \add|Decoder0~0_combout\;
-\add|ALT_INV_LessThan0~5_combout\ <= NOT \add|LessThan0~5_combout\;
-\add|ALT_INV_LessThan0~4_combout\ <= NOT \add|LessThan0~4_combout\;
-\add|ALT_INV_LessThan0~3_combout\ <= NOT \add|LessThan0~3_combout\;
-\add|ALT_INV_LessThan0~2_combout\ <= NOT \add|LessThan0~2_combout\;
-\add|ALT_INV_LessThan0~1_combout\ <= NOT \add|LessThan0~1_combout\;
-\add|ALT_INV_LessThan0~0_combout\ <= NOT \add|LessThan0~0_combout\;
-\add|ALT_INV_state~q\ <= NOT \add|state~q\;
-\sub|ALT_INV_Mux2~1_combout\ <= NOT \sub|Mux2~1_combout\;
-\sub|ALT_INV_cout\(4) <= NOT \sub|cout\(4);
-\sub|ALT_INV_cout\(5) <= NOT \sub|cout\(5);
-\sub|ALT_INV_Mux2~0_combout\ <= NOT \sub|Mux2~0_combout\;
-\sub|ALT_INV_cout\(3) <= NOT \sub|cout\(3);
-\sub|ALT_INV_cout\(2) <= NOT \sub|cout\(2);
-\sub|ALT_INV_cout\(1) <= NOT \sub|cout\(1);
-\sub|ALT_INV_cout\(0) <= NOT \sub|cout\(0);
-\add|ALT_INV_Mux0~0_combout\ <= NOT \add|Mux0~0_combout\;
-\add|ALT_INV_Mux1~0_combout\ <= NOT \add|Mux1~0_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[15]~9_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[27]~8_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[32]~7_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[26]~6_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[20]~5_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[32]~4_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[32]~7_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[26]~6_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[20]~5_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[32]~4_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[32]~7_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[32]~7_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[26]~6_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[26]~6_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[20]~5_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[20]~5_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[32]~4_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[32]~4_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[77]~8_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[66]~7_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[55]~6_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[37]~3_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[31]~2_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[25]~1_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[37]~0_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[37]~3_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[31]~2_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[25]~1_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[37]~0_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[77]~8_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[66]~7_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[55]~6_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[77]~8_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[77]~8_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[66]~7_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[66]~7_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[55]~6_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[55]~6_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[37]~3_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[37]~3_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[31]~2_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[31]~2_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[25]~1_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[25]~1_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[37]~0_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[37]~0_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~5_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[53]~4_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[53]~5_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[53]~4_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~5_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[53]~5_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[53]~4_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[53]~4_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[61]~3_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~2_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[52]~1_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[61]~0_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[61]~3_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[52]~2_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[52]~1_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[61]~0_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[61]~3_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[61]~3_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[52]~2_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[52]~2_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[52]~1_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[52]~1_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[61]~0_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[61]~0_combout\;
-\division|ALT_INV_Data_B\(9) <= NOT \division|Data_B\(9);
-\division|ALT_INV_Data_B\(8) <= NOT \division|Data_B\(8);
-\division|ALT_INV_Data_B\(7) <= NOT \division|Data_B\(7);
-\division|ALT_INV_Data_B\(6) <= NOT \division|Data_B\(6);
-\division|ALT_INV_Data_B\(5) <= NOT \division|Data_B\(5);
-\multiplication|ALT_INV_Data_A\(4) <= NOT \multiplication|Data_A\(4);
-\multiplication|ALT_INV_Data_A\(3) <= NOT \multiplication|Data_A\(3);
-\multiplication|ALT_INV_Data_A\(2) <= NOT \multiplication|Data_A\(2);
-\multiplication|ALT_INV_Data_A\(1) <= NOT \multiplication|Data_A\(1);
-\add|ALT_INV_cout[4]~9_combout\ <= NOT \add|cout[4]~9_combout\;
-\add|ALT_INV_cout[3]~5_combout\ <= NOT \add|cout[3]~5_combout\;
-\add|ALT_INV_cout[5]~3_combout\ <= NOT \add|cout[5]~3_combout\;
-\add|ALT_INV_cout[0]~1_combout\ <= NOT \add|cout[0]~1_combout\;
-\add|ALT_INV_cout~0_combout\ <= NOT \add|cout~0_combout\;
-\sub|ALT_INV_cout[4]~10_combout\ <= NOT \sub|cout[4]~10_combout\;
-\sub|ALT_INV_cout[5]~8_combout\ <= NOT \sub|cout[5]~8_combout\;
-\sub|ALT_INV_cout[3]~6_combout\ <= NOT \sub|cout[3]~6_combout\;
-\sub|ALT_INV_cout[2]~4_combout\ <= NOT \sub|cout[2]~4_combout\;
-\sub|ALT_INV_cout[1]~2_combout\ <= NOT \sub|cout[1]~2_combout\;
-\sub|ALT_INV_Mux0~0_combout\ <= NOT \sub|Mux0~0_combout\;
-\sub|ALT_INV_Mux1~0_combout\ <= NOT \sub|Mux1~0_combout\;
-\multiplication|ALT_INV_Mux0~0_combout\ <= NOT \multiplication|Mux0~0_combout\;
-\multiplication|ALT_INV_Data_B\(3) <= NOT \multiplication|Data_B\(3);
-\multiplication|ALT_INV_Data_B\(2) <= NOT \multiplication|Data_B\(2);
-\multiplication|ALT_INV_Data_B\(1) <= NOT \multiplication|Data_B\(1);
-\multiplication|ALT_INV_Data_B\(0) <= NOT \multiplication|Data_B\(0);
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~20_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[65]~19_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~18_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[43]~17_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~16_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[32]~15_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[54]~14_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[76]~20_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[65]~19_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[54]~18_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[43]~17_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[32]~16_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[32]~15_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[54]~14_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~20_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~20_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[65]~19_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[65]~19_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~18_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~18_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[43]~17_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[43]~17_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~16_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~16_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[32]~15_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[32]~15_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[54]~14_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[54]~14_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~18_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~17_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~18_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~17_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~18_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[16]~18_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~17_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[16]~17_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[65]~12_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[54]~11_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[54]~10_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[76]~9_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[36]~16_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[30]~15_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[36]~16_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[30]~15_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[65]~12_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~11_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[54]~10_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[76]~9_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~13_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~13_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[65]~12_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[65]~12_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~11_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~11_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[54]~10_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[54]~10_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[76]~9_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[76]~9_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[36]~16_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[36]~16_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[30]~15_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[30]~15_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~10_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~9_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~8_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[51]~7_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[60]~6_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[60]~10_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[51]~9_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[51]~8_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[51]~7_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[60]~6_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~10_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[60]~10_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~9_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~9_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~8_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~8_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[51]~7_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[51]~7_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[60]~6_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[60]~6_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[77]~12_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[66]~11_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[55]~10_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[44]~9_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~8_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[33]~7_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[44]~6_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[77]~12_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[66]~11_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[55]~10_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[44]~9_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[33]~8_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[33]~7_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[44]~6_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[77]~12_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[77]~12_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[66]~11_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[66]~11_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[55]~10_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[55]~10_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[44]~9_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[44]~9_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[33]~8_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[33]~8_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[33]~7_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[33]~7_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[44]~6_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[44]~6_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[55]~5_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[55]~5_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[66]~4_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[66]~4_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[77]~3_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[77]~3_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[22]~14_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[16]~13_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[22]~12_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[22]~14_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[16]~13_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[22]~12_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[22]~14_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[22]~14_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[16]~13_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[16]~13_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[22]~12_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[22]~12_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[27]~11_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[21]~10_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[15]~9_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[27]~8_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[27]~11_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[21]~10_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[15]~9_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[15]~9_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[27]~8_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[27]~8_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[27]~11_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[27]~11_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[21]~10_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[21]~10_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[62]~27_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[51]~26_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[40]~25_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[62]~24_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[57]~20_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[57]~20_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[48]~19_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[48]~19_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[57]~20_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[57]~20_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[48]~19_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[48]~19_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[57]~20_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[57]~20_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[48]~19_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[48]~19_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[74]~36_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[74]~36_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[63]~35_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[63]~35_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[52]~34_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[52]~34_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[41]~33_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[41]~33_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[30]~32_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[30]~32_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[52]~31_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[52]~31_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[74]~30_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[74]~30_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[31]~29_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~29_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[31]~28_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~28_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[74]~36_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[74]~36_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[63]~35_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[63]~35_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[52]~34_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[52]~34_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[41]~33_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[41]~33_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[30]~32_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[30]~32_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[52]~31_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[52]~31_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[74]~30_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[74]~30_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[31]~29_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[31]~29_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[31]~28_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[31]~28_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[74]~36_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[74]~36_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[63]~35_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[63]~35_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[52]~34_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[52]~34_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[41]~33_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[41]~33_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[30]~32_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[30]~32_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[52]~31_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[52]~31_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[74]~30_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[74]~30_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[31]~29_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[31]~29_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[31]~28_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[31]~28_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[74]~23_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[74]~23_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[63]~22_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[63]~22_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[52]~21_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[52]~21_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[41]~20_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[41]~20_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[52]~19_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[52]~19_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[74]~18_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[74]~18_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[74]~23_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[74]~23_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[63]~22_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[63]~22_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[52]~21_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[52]~21_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[41]~20_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[41]~20_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[52]~19_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[52]~19_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[74]~18_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[74]~18_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[74]~23_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[74]~23_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[63]~22_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[63]~22_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[52]~21_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[52]~21_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[41]~20_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[41]~20_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[52]~19_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[52]~19_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[74]~18_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[74]~18_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[58]~18_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[58]~18_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[49]~17_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~17_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[49]~16_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~16_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[49]~15_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[49]~15_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[58]~14_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[58]~14_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[58]~18_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[58]~18_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[49]~17_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[49]~17_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[49]~16_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[49]~16_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[49]~15_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[49]~15_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[58]~14_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[58]~14_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[58]~18_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[58]~18_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[49]~17_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[49]~17_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[49]~16_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[49]~16_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[49]~15_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[49]~15_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[58]~14_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[58]~14_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[75]~27_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[75]~27_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[64]~26_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[64]~26_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[53]~25_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[53]~25_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[42]~24_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[42]~24_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[31]~23_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[31]~23_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[42]~22_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[42]~22_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[64]~21_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[64]~21_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[75]~27_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[75]~27_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[64]~26_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[64]~26_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[53]~25_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[53]~25_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[42]~24_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[42]~24_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[31]~23_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[31]~23_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[42]~22_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[42]~22_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[64]~21_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[64]~21_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[75]~27_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[75]~27_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[64]~26_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[64]~26_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[53]~25_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[53]~25_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[42]~24_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[42]~24_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[31]~23_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[31]~23_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[42]~22_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[42]~22_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[64]~21_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[64]~21_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[18]~23_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[18]~23_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[18]~22_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[18]~22_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[18]~23_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~23_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[18]~22_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[18]~22_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[18]~23_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[18]~23_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[18]~22_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[18]~22_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[75]~17_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[75]~17_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[64]~16_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[64]~16_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[53]~15_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[53]~15_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[64]~14_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[64]~14_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[35]~21_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[35]~21_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[17]~20_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[17]~20_combout\;
-\convert_binary|Div4|auto_generated|divider|divider|ALT_INV_StageOut[17]~19_combout\ <= NOT \convert_binary|Div4|auto_generated|divider|divider|StageOut[17]~19_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[35]~21_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[35]~21_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[17]~20_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~20_combout\;
-\convert_binary|Div0|auto_generated|divider|divider|ALT_INV_StageOut[17]~19_combout\ <= NOT \convert_binary|Div0|auto_generated|divider|divider|StageOut[17]~19_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[75]~17_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[75]~17_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[64]~16_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[64]~16_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[53]~15_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[53]~15_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[64]~14_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[64]~14_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[75]~17_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[75]~17_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[64]~16_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[64]~16_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[53]~15_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[53]~15_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[64]~14_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[64]~14_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[35]~21_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[35]~21_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[17]~20_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[17]~20_combout\;
-\convert_binary|Div2|auto_generated|divider|divider|ALT_INV_StageOut[17]~19_combout\ <= NOT \convert_binary|Div2|auto_generated|divider|divider|StageOut[17]~19_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[59]~13_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[59]~13_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[50]~12_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~12_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[50]~11_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[50]~11_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[59]~13_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[59]~13_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[50]~12_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[50]~12_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[50]~11_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[50]~11_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[59]~13_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[59]~13_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[50]~12_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[50]~12_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[50]~11_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[50]~11_combout\;
-\ALT_INV_B[4]~input_o\ <= NOT \B[4]~input_o\;
-\ALT_INV_RST_N~input_o\ <= NOT \RST_N~input_o\;
-\ALT_INV_Operation[1]~input_o\ <= NOT \Operation[1]~input_o\;
-\ALT_INV_Operation[0]~input_o\ <= NOT \Operation[0]~input_o\;
-\convert_binary|ALT_INV_Mux30~3_combout\ <= NOT \convert_binary|Mux30~3_combout\;
-\convert_binary|ALT_INV_Mux30~2_combout\ <= NOT \convert_binary|Mux30~2_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[72]~45_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[61]~44_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[50]~43_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[72]~42_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[72]~45_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[61]~44_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[50]~43_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[72]~42_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[72]~45_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[72]~45_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[61]~44_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[61]~44_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[50]~43_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[50]~43_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[72]~42_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[72]~42_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[72]~32_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[61]~31_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[50]~30_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[72]~29_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[72]~32_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[61]~31_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[50]~30_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[72]~29_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~32_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[72]~32_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[61]~31_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[61]~31_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[50]~30_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[50]~30_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[72]~29_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[72]~29_combout\;
-\convert_binary|Div1|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ <= NOT \convert_binary|Div1|auto_generated|divider|divider|StageOut[56]~21_combout\;
-\convert_binary|Div5|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ <= NOT \convert_binary|Div5|auto_generated|divider|divider|StageOut[56]~21_combout\;
-\convert_binary|Div3|auto_generated|divider|divider|ALT_INV_StageOut[56]~21_combout\ <= NOT \convert_binary|Div3|auto_generated|divider|divider|StageOut[56]~21_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[73]~41_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[62]~40_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[51]~39_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[40]~38_combout\;
-\convert_binary|Mod0|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ <= NOT \convert_binary|Mod0|auto_generated|divider|divider|StageOut[62]~37_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[73]~41_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[62]~40_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[51]~39_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[40]~38_combout\;
-\convert_binary|Mod4|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ <= NOT \convert_binary|Mod4|auto_generated|divider|divider|StageOut[62]~37_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[73]~41_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[73]~41_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[62]~40_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[62]~40_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[51]~39_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[51]~39_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[40]~38_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[40]~38_combout\;
-\convert_binary|Mod2|auto_generated|divider|divider|ALT_INV_StageOut[62]~37_combout\ <= NOT \convert_binary|Mod2|auto_generated|divider|divider|StageOut[62]~37_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[73]~28_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[62]~27_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[51]~26_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[40]~25_combout\;
-\convert_binary|Mod5|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ <= NOT \convert_binary|Mod5|auto_generated|divider|divider|StageOut[62]~24_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[73]~28_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[62]~27_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[62]~27_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[51]~26_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[51]~26_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[40]~25_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[40]~25_combout\;
-\convert_binary|Mod1|auto_generated|divider|divider|ALT_INV_StageOut[62]~24_combout\ <= NOT \convert_binary|Mod1|auto_generated|divider|divider|StageOut[62]~24_combout\;
-\convert_binary|Mod3|auto_generated|divider|divider|ALT_INV_StageOut[73]~28_combout\ <= NOT \convert_binary|Mod3|auto_generated|divider|divider|StageOut[73]~28_combout\;
-\ALT_INV_Start~input_o\ <= NOT \Start~input_o\;
-\ALT_INV_A[3]~input_o\ <= NOT \A[3]~input_o\;
-\ALT_INV_A[2]~input_o\ <= NOT \A[2]~input_o\;
-\ALT_INV_A[1]~input_o\ <= NOT \A[1]~input_o\;
-\ALT_INV_A[0]~input_o\ <= NOT \A[0]~input_o\;
-\ALT_INV_A[4]~input_o\ <= NOT \A[4]~input_o\;
-\ALT_INV_B[3]~input_o\ <= NOT \B[3]~input_o\;
-\ALT_INV_B[2]~input_o\ <= NOT \B[2]~input_o\;
-\ALT_INV_B[1]~input_o\ <= NOT \B[1]~input_o\;
-\ALT_INV_B[0]~input_o\ <= NOT \B[0]~input_o\;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 
 \Result[0]~output\ : cyclonev_io_obuf
 -- pragma translate_off
@@ -10278,19 +8597,18 @@ PORT MAP (
 
 \division|Selector11~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division|Selector11~0_combout\ = (!\division|state.S2~q\ & (!\division|state.S1~q\ & (\B[3]~input_o\))) # (\division|state.S2~q\ & (((\division|Data_B\(9)))))
+-- \division|Selector11~0_combout\ = (!\division|state.S2~q\ & (\B[3]~input_o\)) # (\division|state.S2~q\ & ((\division|Data_B\(9))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010000000101111001000000010111100100000001011110010000000101111",
+	lut_mask => "0100011101000111010001110100011101000111010001110100011101000111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division|ALT_INV_state.S1~q\,
-	datab => \ALT_INV_B[3]~input_o\,
-	datac => \division|ALT_INV_state.S2~q\,
-	datad => \division|ALT_INV_Data_B\(9),
+	dataa => \ALT_INV_B[3]~input_o\,
+	datab => \division|ALT_INV_state.S2~q\,
+	datac => \division|ALT_INV_Data_B\(9),
 	combout => \division|Selector11~0_combout\);
 
 \division|Data_B[8]~0\ : cyclonev_lcell_comb
@@ -10322,31 +8640,26 @@ PORT MAP (
 	clk => \CLK~input_o\,
 	d => \division|Selector11~0_combout\,
 	clrn => \ALT_INV_RST_N~input_o\,
-<<<<<<< HEAD
 	sclr => \division|state.S1~q\,
 	ena => \division|Data_B[8]~0_combout\,
-=======
-	ena => \division|Data_B[5]~0_combout\,
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division|Data_B\(8));
 
 \division|Selector12~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division|Selector12~0_combout\ = (!\division|state.S2~q\ & (!\division|state.S1~q\ & (\B[2]~input_o\))) # (\division|state.S2~q\ & (((\division|Data_B\(8)))))
+-- \division|Selector12~0_combout\ = (!\division|state.S2~q\ & (\B[2]~input_o\)) # (\division|state.S2~q\ & ((\division|Data_B\(8))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010000000101111001000000010111100100000001011110010000000101111",
+	lut_mask => "0100011101000111010001110100011101000111010001110100011101000111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division|ALT_INV_state.S1~q\,
-	datab => \ALT_INV_B[2]~input_o\,
-	datac => \division|ALT_INV_state.S2~q\,
-	datad => \division|ALT_INV_Data_B\(8),
+	dataa => \ALT_INV_B[2]~input_o\,
+	datab => \division|ALT_INV_state.S2~q\,
+	datac => \division|ALT_INV_Data_B\(8),
 	combout => \division|Selector12~0_combout\);
 
 \division|Data_B[7]\ : dffeas
@@ -10359,31 +8672,26 @@ PORT MAP (
 	clk => \CLK~input_o\,
 	d => \division|Selector12~0_combout\,
 	clrn => \ALT_INV_RST_N~input_o\,
-<<<<<<< HEAD
 	sclr => \division|state.S1~q\,
 	ena => \division|Data_B[8]~0_combout\,
-=======
-	ena => \division|Data_B[5]~0_combout\,
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division|Data_B\(7));
 
 \division|Selector13~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division|Selector13~0_combout\ = (!\division|state.S2~q\ & (!\division|state.S1~q\ & (\B[1]~input_o\))) # (\division|state.S2~q\ & (((\division|Data_B\(7)))))
+-- \division|Selector13~0_combout\ = (!\division|state.S2~q\ & (\B[1]~input_o\)) # (\division|state.S2~q\ & ((\division|Data_B\(7))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010000000101111001000000010111100100000001011110010000000101111",
+	lut_mask => "0100011101000111010001110100011101000111010001110100011101000111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division|ALT_INV_state.S1~q\,
-	datab => \ALT_INV_B[1]~input_o\,
-	datac => \division|ALT_INV_state.S2~q\,
-	datad => \division|ALT_INV_Data_B\(7),
+	dataa => \ALT_INV_B[1]~input_o\,
+	datab => \division|ALT_INV_state.S2~q\,
+	datac => \division|ALT_INV_Data_B\(7),
 	combout => \division|Selector13~0_combout\);
 
 \division|Data_B[6]\ : dffeas
@@ -10396,31 +8704,26 @@ PORT MAP (
 	clk => \CLK~input_o\,
 	d => \division|Selector13~0_combout\,
 	clrn => \ALT_INV_RST_N~input_o\,
-<<<<<<< HEAD
 	sclr => \division|state.S1~q\,
 	ena => \division|Data_B[8]~0_combout\,
-=======
-	ena => \division|Data_B[5]~0_combout\,
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division|Data_B\(6));
 
 \division|Selector14~0\ : cyclonev_lcell_comb
 -- Equation(s):
--- \division|Selector14~0_combout\ = (!\division|state.S2~q\ & (!\division|state.S1~q\ & (\B[0]~input_o\))) # (\division|state.S2~q\ & (((\division|Data_B\(6)))))
+-- \division|Selector14~0_combout\ = (!\division|state.S2~q\ & (\B[0]~input_o\)) # (\division|state.S2~q\ & ((\division|Data_B\(6))))
 
 -- pragma translate_off
 GENERIC MAP (
 	extended_lut => "off",
-	lut_mask => "0010000000101111001000000010111100100000001011110010000000101111",
+	lut_mask => "0100011101000111010001110100011101000111010001110100011101000111",
 	shared_arith => "off")
 -- pragma translate_on
 PORT MAP (
-	dataa => \division|ALT_INV_state.S1~q\,
-	datab => \ALT_INV_B[0]~input_o\,
-	datac => \division|ALT_INV_state.S2~q\,
-	datad => \division|ALT_INV_Data_B\(6),
+	dataa => \ALT_INV_B[0]~input_o\,
+	datab => \division|ALT_INV_state.S2~q\,
+	datac => \division|ALT_INV_Data_B\(6),
 	combout => \division|Selector14~0_combout\);
 
 \division|Data_B[5]\ : dffeas
@@ -10433,12 +8736,8 @@ PORT MAP (
 	clk => \CLK~input_o\,
 	d => \division|Selector14~0_combout\,
 	clrn => \ALT_INV_RST_N~input_o\,
-<<<<<<< HEAD
 	sclr => \division|state.S1~q\,
 	ena => \division|Data_B[8]~0_combout\,
-=======
-	ena => \division|Data_B[5]~0_combout\,
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 	devclrn => ww_devclrn,
 	devpor => ww_devpor,
 	q => \division|Data_B\(5));

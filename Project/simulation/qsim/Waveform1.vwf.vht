@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/14/2022 17:56:29"
+-- Generated on "11/14/2022 22:31:17"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          calculator
 -- 
@@ -115,7 +115,7 @@ END PROCESS t_prcs_A_1;
 -- A[0]
 t_prcs_A_0: PROCESS
 BEGIN
-	A(0) <= '1';
+	A(0) <= '0';
 WAIT;
 END PROCESS t_prcs_A_0;
 -- B[4]
@@ -139,13 +139,13 @@ END PROCESS t_prcs_B_2;
 -- B[1]
 t_prcs_B_1: PROCESS
 BEGIN
-	B(1) <= '0';
+	B(1) <= '1';
 WAIT;
 END PROCESS t_prcs_B_1;
 -- B[0]
 t_prcs_B_0: PROCESS
 BEGIN
-	B(0) <= '1';
+	B(0) <= '0';
 WAIT;
 END PROCESS t_prcs_B_0;
 
@@ -163,7 +163,7 @@ END PROCESS t_prcs_CLK;
 -- Operation[1]
 t_prcs_Operation_1: PROCESS
 BEGIN
-	Operation(1) <= '0';
+	Operation(1) <= '1';
 WAIT;
 END PROCESS t_prcs_Operation_1;
 -- Operation[0]
@@ -176,7 +176,7 @@ END PROCESS t_prcs_Operation_0;
 -- RST_N
 t_prcs_RST_N: PROCESS
 BEGIN
-	RST_N <= '1';
+	RST_N <= '0';
 WAIT;
 END PROCESS t_prcs_RST_N;
 
@@ -184,9 +184,9 @@ END PROCESS t_prcs_RST_N;
 t_prcs_Start: PROCESS
 BEGIN
 	Start <= '1';
-	WAIT FOR 10000 ps;
+	WAIT FOR 20000 ps;
 	Start <= '0';
-	WAIT FOR 30000 ps;
+	WAIT FOR 10000 ps;
 	Start <= '1';
 WAIT;
 END PROCESS t_prcs_Start;

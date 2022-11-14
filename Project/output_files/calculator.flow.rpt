@@ -1,9 +1,5 @@
 Flow report for calculator
-<<<<<<< HEAD
-Mon Nov 14 21:36:04 2022
-=======
-Mon Nov 14 21:03:02 2022
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+Mon Nov 14 22:31:18 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -45,11 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-<<<<<<< HEAD
-; Flow Status                     ; Successful - Mon Nov 14 21:36:04 2022       ;
-=======
-; Flow Status                     ; Successful - Mon Nov 14 21:03:02 2022       ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+; Flow Status                     ; Successful - Mon Nov 14 22:31:18 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; calculator                                  ;
 ; Top-level Entity Name           ; calculator                                  ;
@@ -57,11 +49,7 @@ https://fpgasoftware.intel.com/eula.
 ; Device                          ; 5CEBA4F23C7                                 ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-<<<<<<< HEAD
 ; Total registers                 ; 310                                         ;
-=======
-; Total registers                 ; 309                                         ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 ; Total pins                      ; 78                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
@@ -80,11 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-<<<<<<< HEAD
-; Start date & time ; 11/14/2022 21:31:07 ;
-=======
-; Start date & time ; 11/14/2022 21:02:54 ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+; Start date & time ; 11/14/2022 22:26:45 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; calculator          ;
 +-------------------+---------------------+
@@ -95,11 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-<<<<<<< HEAD
-; COMPILER_SIGNATURE_ID               ; 233566452322071.166843626709380        ; --            ; --          ; --         ;
-=======
-; COMPILER_SIGNATURE_ID               ; 136411535909355.166843457403592        ; --            ; --          ; --         ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+; COMPILER_SIGNATURE_ID               ; 233566452322071.166843960512300        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -114,29 +94,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-<<<<<<< HEAD
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4869 MB             ; 00:00:26                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4869 MB             ; 00:00:25                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4714 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4716 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
-; Total                ; 00:00:27     ; --                      ; --                  ; 00:00:42                           ;
-=======
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4871 MB             ; 00:00:08                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:08                           ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -145,7 +110,6 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-<<<<<<< HEAD
 ; Analysis & Synthesis ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
@@ -153,19 +117,6 @@ https://fpgasoftware.intel.com/eula.
 ; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-AIPEEU7  ; Windows 10 ; 10.0       ; x86_64         ;
-=======
-; Analysis & Synthesis ; DESKTOP-2IBT45H  ; Windows 10 ; 10.0       ; x86_64         ;
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -173,25 +124,12 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off calculator -c calculator
-<<<<<<< HEAD
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform1.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform1.vwf.vht"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform1.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform1.vwf.vht"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform1.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform1.vwf.vht"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform10.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform10.vwf.vht"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
-=======
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 
 
 
