@@ -1,13 +1,13 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/Calculator/Waveform2.vwf" --testbench_file="D:/year_2/Digital Lab/Calculator/simulation/qsim/Waveform2.vwf.vht"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/Calculator/Waveform2.vwf" --testbench_file="D:/year_2/Digital Lab/Calculator/simulation/qsim/Waveform2.vwf.vht"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/Calculator/simulation/qsim/" calculator -c calculator</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/Calculator/simulation/qsim/" calculator -c calculator</tnetlist_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform2.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform2.vwf.vht"</ftestbench_cmd>
+<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/Waveform2.vwf" --testbench_file="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/Waveform2.vwf.vht"</ttestbench_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator</fnetlist_cmd>
+<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vcom -work work calculator.vho
 vcom -work work Waveform2.vwf.vht
-vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.calculator_vhd_vec_tst
+vsim  -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.calculator_vhd_vec_tst
 vcd file -direction calculator.msim.vcd
 vcd add -internal calculator_vhd_vec_tst/*
 vcd add -internal calculator_vhd_vec_tst/i1/*
@@ -20,19 +20,6 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
-
-
-
-
-
-
-
-
-
-
-
-
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -51,19 +38,6 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
-
-
-
-
-
-
-
-
-
-
-
-
 </modelsim_script_timing>
 <hdl_lang>vhdl</hdl_lang>
 </simulation_settings>*/
@@ -1033,7 +1007,7 @@ TRANSITION_LIST("A[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -1078,7 +1052,7 @@ TRANSITION_LIST("B[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -1695,9 +1669,9 @@ TRANSITION_LIST("Start")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 10.0;
+		LEVEL 1 FOR 30.0;
 		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 950.0;
+		LEVEL 1 FOR 930.0;
 	}
 }
 
@@ -1873,7 +1847,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 17;
 	TREE_LEVEL = 0;
 	CHILDREN = 18, 19, 20, 21, 22, 23, 24, 25, 26, 27;
@@ -1883,7 +1857,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[9]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 18;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1893,7 +1867,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[8]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 19;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1903,7 +1877,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[7]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 20;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1913,7 +1887,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[6]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 21;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1923,7 +1897,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[5]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 22;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1933,7 +1907,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[4]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 23;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1943,7 +1917,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 24;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1953,7 +1927,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 25;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1963,7 +1937,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 26;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1973,7 +1947,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Remainder[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 27;
 	TREE_LEVEL = 1;
 	PARENT = 17;
@@ -1983,7 +1957,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 28;
 	TREE_LEVEL = 0;
 	CHILDREN = 29, 30, 31, 32, 33, 34, 35, 36, 37, 38;
@@ -1993,7 +1967,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[9]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 29;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2003,7 +1977,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[8]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 30;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2013,7 +1987,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[7]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 31;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2023,7 +1997,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[6]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 32;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2033,7 +2007,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[5]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 33;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2043,7 +2017,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[4]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 34;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2053,7 +2027,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[3]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 35;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2063,7 +2037,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[2]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 36;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2073,7 +2047,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[1]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 37;
 	TREE_LEVEL = 1;
 	PARENT = 28;
@@ -2083,7 +2057,7 @@ DISPLAY_LINE
 {
 	CHANNEL = "Result[0]";
 	EXPAND_STATUS = COLLAPSED;
-	RADIX = Unsigned;
+	RADIX = Binary;
 	TREE_INDEX = 38;
 	TREE_LEVEL = 1;
 	PARENT = 28;

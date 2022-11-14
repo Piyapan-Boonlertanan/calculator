@@ -1,8 +1,13 @@
 onerror {exit -code 1}
 vlib work
 vcom -work work calculator.vho
-vcom -work work Waveform4.vwf.vht
+<<<<<<< Updated upstream
+vcom -work work Waveform10.vwf.vht
 vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.calculator_vhd_vec_tst
+=======
+vcom -work work Waveform2.vwf.vht
+vsim  -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.calculator_vhd_vec_tst
+>>>>>>> Stashed changes
 vcd file -direction calculator.msim.vcd
 vcd add -internal calculator_vhd_vec_tst/*
 vcd add -internal calculator_vhd_vec_tst/i1/*
@@ -16,6 +21,8 @@ after 2500 simTimestamp
 run -all
 quit -f
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -26,3 +33,4 @@ quit -f
 
 
 
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4

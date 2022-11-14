@@ -48,9 +48,14 @@ begin
 
 						case B is
 							when "00000" =>
+<<<<<<< HEAD
+								B_OVERFLOW <= '0';
+=======
 								B_OVERFLOW <= '1';
 								
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 							when others =>
+								B_OVERFLOW <= '1';
 								state <= S1;
 						end case;	
 						

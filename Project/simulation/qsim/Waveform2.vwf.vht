@@ -19,7 +19,11 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
+<<<<<<< Updated upstream
 -- Generated on "11/14/2022 19:41:04"
+=======
+-- Generated on "11/16/2022 23:51:31"
+>>>>>>> Stashed changes
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          calculator
 -- 
@@ -54,6 +58,7 @@ COMPONENT calculator
 	A : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
 	B : IN STD_LOGIC_VECTOR(4 DOWNTO 0);
 	CLK : IN STD_LOGIC;
+<<<<<<< Updated upstream
 	Done : OUT STD_LOGIC;
 	Operation : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
 	Remainder : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
@@ -65,6 +70,19 @@ COMPONENT calculator
 	seven_seg_digit_4r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
 	seven_seg_digit_5r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
 	seven_seg_digit_6r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+=======
+	Done : BUFFER STD_LOGIC;
+	Operation : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	Remainder : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
+	Result : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
+	RST_N : IN STD_LOGIC;
+	seven_seg_digit_1 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_2 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_3 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_4r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_5r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_6r : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+>>>>>>> Stashed changes
 	Start : IN STD_LOGIC
 	);
 END COMPONENT;
@@ -115,7 +133,11 @@ END PROCESS t_prcs_A_1;
 -- A[0]
 t_prcs_A_0: PROCESS
 BEGIN
+<<<<<<< Updated upstream
 	A(0) <= '0';
+=======
+	A(0) <= '1';
+>>>>>>> Stashed changes
 WAIT;
 END PROCESS t_prcs_A_0;
 -- B[4]
@@ -139,13 +161,21 @@ END PROCESS t_prcs_B_2;
 -- B[1]
 t_prcs_B_1: PROCESS
 BEGIN
+<<<<<<< Updated upstream
 	B(1) <= '0';
+=======
+	B(1) <= '1';
+>>>>>>> Stashed changes
 WAIT;
 END PROCESS t_prcs_B_1;
 -- B[0]
 t_prcs_B_0: PROCESS
 BEGIN
+<<<<<<< Updated upstream
 	B(0) <= '0';
+=======
+	B(0) <= '1';
+>>>>>>> Stashed changes
 WAIT;
 END PROCESS t_prcs_B_0;
 
@@ -163,13 +193,21 @@ END PROCESS t_prcs_CLK;
 -- Operation[1]
 t_prcs_Operation_1: PROCESS
 BEGIN
+<<<<<<< Updated upstream
 	Operation(1) <= '0';
+=======
+	Operation(1) <= '1';
+>>>>>>> Stashed changes
 WAIT;
 END PROCESS t_prcs_Operation_1;
 -- Operation[0]
 t_prcs_Operation_0: PROCESS
 BEGIN
+<<<<<<< Updated upstream
 	Operation(0) <= '0';
+=======
+	Operation(0) <= '1';
+>>>>>>> Stashed changes
 WAIT;
 END PROCESS t_prcs_Operation_0;
 
@@ -184,7 +222,11 @@ END PROCESS t_prcs_RST_N;
 t_prcs_Start: PROCESS
 BEGIN
 	Start <= '1';
+<<<<<<< Updated upstream
 	WAIT FOR 10000 ps;
+=======
+	WAIT FOR 30000 ps;
+>>>>>>> Stashed changes
 	Start <= '0';
 	WAIT FOR 40000 ps;
 	Start <= '1';

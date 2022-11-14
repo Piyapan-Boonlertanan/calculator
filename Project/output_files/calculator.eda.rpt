@@ -1,5 +1,13 @@
 EDA Netlist Writer report for calculator
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+Mon Nov 14 21:36:04 2022
+=======
 Mon Nov 14 21:02:25 2022
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+=======
+Wed Nov 16 23:53:33 2022
+>>>>>>> Stashed changes
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -8,9 +16,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ---------------------
   1. Legal Notice
   2. EDA Netlist Writer Summary
-  3. Simulation Settings
-  4. Simulation Generated Files
-  5. EDA Netlist Writer Messages
+  3. EDA Netlist Writer Messages
 
 
 
@@ -34,10 +40,15 @@ https://fpgasoftware.intel.com/eula.
 
 
 
+<<<<<<< Updated upstream
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
+<<<<<<< HEAD
+; EDA Netlist Writer Status ; Successful - Mon Nov 14 21:36:04 2022 ;
+=======
 ; EDA Netlist Writer Status ; Successful - Mon Nov 14 21:02:25 2022 ;
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 ; Revision Name             ; calculator                            ;
 ; Top-level Entity Name     ; calculator                            ;
 ; Family                    ; Cyclone V                             ;
@@ -66,13 +77,23 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+------------------------------------------------------------------------------+
-; Simulation Generated Files                                                   ;
-+------------------------------------------------------------------------------+
-; Generated Files                                                              ;
-+------------------------------------------------------------------------------+
-; D:/year_2/Digital Lab/calculator git/Project/simulation/qsim//calculator.vho ;
-+------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                         ;
++------------------------------------------------------------------------------------+
+; Generated Files                                                                    ;
++------------------------------------------------------------------------------------+
+; C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim//calculator.vho ;
++------------------------------------------------------------------------------------+
+=======
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Wed Nov 16 23:53:33 2022 ;
+; Revision Name             ; calculator                        ;
+; Top-level Entity Name     ; calculator                        ;
+; Family                    ; Cyclone V                         ;
++---------------------------+-----------------------------------+
+>>>>>>> Stashed changes
 
 
 +-----------------------------+
@@ -95,15 +116,40 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    Info: Processing started: Mon Nov 14 21:36:03 2022
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim/" calculator -c calculator
+=======
     Info: Processing started: Mon Nov 14 21:02:25 2022
 Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/calculator git/Project/simulation/qsim/" calculator -c calculator
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
 Info (119006): Selected device 5CEBA4F23C7 for design "calculator"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file calculator.vho in folder "D:/year_2/Digital Lab/calculator git/Project/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file calculator.vho in folder "C:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4724 megabytes
+<<<<<<< HEAD
+    Info: Processing ended: Mon Nov 14 21:36:04 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+=======
     Info: Processing ended: Mon Nov 14 21:02:25 2022
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
+>>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
+=======
+    Info: Processing started: Wed Nov 16 23:53:32 2022
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/FinalCalculator/Waveform.vwf" --testbench_file="D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/Waveform.vwf.vht"
+Info (119006): Selected device 5CEBA4F23C7 for design "calculator"
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Error (199013): HDL output file name "D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/Waveform.vwf.vht" used with --testbench_file option contains a non-existent directory path
+Error (199014): Vector source file D:/year_2/Digital Lab/FinalCalculator/Waveform.vwf specified with --testbench_vector_input_file option does not exist
+Error: Quartus Prime EDA Netlist Writer was unsuccessful. 2 errors, 1 warning
+    Error: Peak virtual memory: 4713 megabytes
+    Error: Processing ended: Wed Nov 16 23:53:33 2022
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:01
+>>>>>>> Stashed changes
 
 
