@@ -45,8 +45,8 @@ begin
 						Data_A (N-1 downto 0) <= A;
 						Data_B(2*N-1 downto N)  <= B;
 						
-						case Data_B is
-							when "0000000000" =>
+						case B is
+							when "00000" =>
 								B_OVERFLOW <= '0';
 								
 							when others =>

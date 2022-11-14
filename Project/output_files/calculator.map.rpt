@@ -1,5 +1,5 @@
 Analysis & Synthesis report for calculator
-Mon Nov 14 19:40:13 2022
+Mon Nov 14 20:17:41 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 14 19:40:13 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 14 20:17:41 2022       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; calculator                                  ;
 ; Top-level Entity Name           ; calculator                                  ;
@@ -205,25 +205,25 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
-; adder_and_subtractor.vhd         ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/adder_and_subtractor.vhd                  ;         ;
-; BCD_to_7_segmen.vhd              ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/BCD_to_7_segmen.vhd                       ;         ;
-; BCD_2_digit_7_seg_display.vhd    ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd             ;         ;
-; division.vhd                     ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/division.vhd                              ;         ;
-; calculator.vhd                   ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/calculator.vhd                            ;         ;
-; Multiplication.vhd               ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/Calculator/Multiplication.vhd                        ;         ;
+; adder_and_subtractor.vhd         ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd      ;         ;
+; BCD_to_7_segmen.vhd              ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/BCD_to_7_segmen.vhd           ;         ;
+; BCD_2_digit_7_seg_display.vhd    ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd ;         ;
+; division.vhd                     ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/division.vhd                  ;         ;
+; calculator.vhd                   ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/calculator.vhd                ;         ;
+; Multiplication.vhd               ; yes             ; User VHDL File               ; D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd            ;         ;
 ; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf      ;         ;
 ; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc     ;         ;
 ; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc ;         ;
 ; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc      ;         ;
-; db/lpm_divide_hbm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/lpm_divide_hbm.tdf                     ;         ;
-; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_nlh.tdf                ;         ;
-; db/alt_u_div_kve.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/alt_u_div_kve.tdf                      ;         ;
-; db/lpm_divide_ebm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/lpm_divide_ebm.tdf                     ;         ;
-; db/sign_div_unsign_klh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_klh.tdf                ;         ;
-; db/alt_u_div_eve.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/alt_u_div_eve.tdf                      ;         ;
-; db/lpm_divide_u4m.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/lpm_divide_u4m.tdf                     ;         ;
-; db/sign_div_unsign_1nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_1nh.tdf                ;         ;
-; db/alt_u_div_82f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/Calculator/db/alt_u_div_82f.tdf                      ;         ;
+; db/lpm_divide_hbm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_hbm.tdf         ;         ;
+; db/sign_div_unsign_nlh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_nlh.tdf    ;         ;
+; db/alt_u_div_kve.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_kve.tdf          ;         ;
+; db/lpm_divide_ebm.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_ebm.tdf         ;         ;
+; db/sign_div_unsign_klh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_klh.tdf    ;         ;
+; db/alt_u_div_eve.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_eve.tdf          ;         ;
+; db/lpm_divide_u4m.tdf            ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_u4m.tdf         ;         ;
+; db/sign_div_unsign_1nh.tdf       ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_1nh.tdf    ;         ;
+; db/alt_u_div_82f.tdf             ; yes             ; Auto-Generated Megafunction  ; D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_82f.tdf          ;         ;
 +----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
@@ -232,12 +232,12 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 694       ;
+; Estimate of Logic utilization (ALMs needed) ; 696       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 1309      ;
-;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 68        ;
-;     -- 5 input functions                    ; 48        ;
+; Combinational ALUT usage for logic          ; 1306      ;
+;     -- 7 input functions                    ; 1         ;
+;     -- 6 input functions                    ; 74        ;
+;     -- 5 input functions                    ; 38        ;
 ;     -- 4 input functions                    ; 193       ;
 ;     -- <=3 input functions                  ; 1000      ;
 ;                                             ;           ;
@@ -249,7 +249,7 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 289       ;
-; Total fan-out                               ; 5118      ;
+; Total fan-out                               ; 5114      ;
 ; Average fan-out                             ; 2.92      ;
 +---------------------------------------------+-----------+
 
@@ -259,7 +259,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node                    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                  ; Entity Name               ; Library Name ;
 +-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
-; |calculator                                   ; 1309 (0)            ; 289 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |calculator                                                                                                                                          ; calculator                ; work         ;
+; |calculator                                   ; 1306 (0)            ; 289 (0)                   ; 0                 ; 0          ; 78   ; 0            ; |calculator                                                                                                                                          ; calculator                ; work         ;
 ;    |BCD_2_digit_7_seg_display:convert_binary| ; 1041 (57)           ; 34 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary                                                                                                 ; BCD_2_digit_7_seg_display ; work         ;
 ;       |lpm_divide:Div0|                       ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0                                                                                 ; lpm_divide                ; work         ;
 ;          |lpm_divide_ebm:auto_generated|      ; 71 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div0|lpm_divide_ebm:auto_generated                                                   ; lpm_divide_ebm            ; work         ;
@@ -316,9 +316,9 @@ https://fpgasoftware.intel.com/eula.
 ;    |BCD_to_7_segmen:seven_seg_display_5|      ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_5                                                                                                      ; BCD_to_7_segmen           ; work         ;
 ;    |BCD_to_7_segmen:seven_seg_display_6|      ; 1 (1)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |calculator|BCD_to_7_segmen:seven_seg_display_6                                                                                                      ; BCD_to_7_segmen           ; work         ;
 ;    |Multiplication:multiplication|            ; 66 (66)             ; 69 (69)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|Multiplication:multiplication                                                                                                            ; Multiplication            ; work         ;
-;    |adder_and_subtractor:add|                 ; 70 (70)             ; 50 (50)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:add                                                                                                                 ; adder_and_subtractor      ; work         ;
+;    |adder_and_subtractor:add|                 ; 69 (69)             ; 50 (50)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:add                                                                                                                 ; adder_and_subtractor      ; work         ;
 ;    |adder_and_subtractor:sub|                 ; 19 (19)             ; 17 (17)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|adder_and_subtractor:sub                                                                                                                 ; adder_and_subtractor      ; work         ;
-;    |division:division|                        ; 89 (89)             ; 86 (86)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|division:division                                                                                                                        ; division                  ; work         ;
+;    |division:division|                        ; 87 (87)             ; 86 (86)                   ; 0                 ; 0          ; 0    ; 0            ; |calculator|division:division                                                                                                                        ; division                  ; work         ;
 +-----------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -340,14 +340,7 @@ Encoding Type:  One-Hot
 +-----------------------------------------------------------+---------------------------------------------------------------------+
 ; Register name                                             ; Reason for Removal                                                  ;
 +-----------------------------------------------------------+---------------------------------------------------------------------+
-; division:division|B_OVERFLOW                              ; Stuck at GND due to stuck port data_in                              ;
 ; adder_and_subtractor:sub|DONE                             ; Merged with adder_and_subtractor:add|DONE                           ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[3]   ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[2]   ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[0,2] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0] ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[0,2] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0] ;
 ; adder_and_subtractor:sub|bit_counter[2]                   ; Merged with adder_and_subtractor:add|bit_counter[2]                 ;
 ; adder_and_subtractor:sub|bit_counter[1]                   ; Merged with adder_and_subtractor:add|bit_counter[1]                 ;
 ; adder_and_subtractor:sub|bit_counter[0]                   ; Merged with adder_and_subtractor:add|bit_counter[0]                 ;
@@ -381,13 +374,19 @@ Encoding Type:  One-Hot
 ; adder_and_subtractor:sub|bit_counter[5]                   ; Merged with adder_and_subtractor:add|bit_counter[5]                 ;
 ; adder_and_subtractor:sub|bit_counter[4]                   ; Merged with adder_and_subtractor:add|bit_counter[4]                 ;
 ; adder_and_subtractor:sub|state                            ; Merged with adder_and_subtractor:add|state                          ;
-; BCD_to_7_segmen:seven_seg_display_6|seven_seg[3,5]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_5|seven_seg[3,5]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_4|seven_seg[3,5]        ; Stuck at GND due to stuck port data_in                              ;
-; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0]   ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_6|seven_seg[4]          ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_5|seven_seg[4]          ; Stuck at GND due to stuck port data_in                              ;
-; BCD_to_7_segmen:seven_seg_display_4|seven_seg[4]          ; Stuck at GND due to stuck port data_in                              ;
+; division:division|B_OVERFLOW                              ; Stuck at GND due to stuck port data_in                              ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[0,2] ; Stuck at GND due to stuck port data_in                              ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[0,2] ; Stuck at GND due to stuck port data_in                              ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0,2] ; Stuck at GND due to stuck port data_in                              ;
+; BCD_to_7_segmen:seven_seg_display_6|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
+; BCD_to_7_segmen:seven_seg_display_5|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
+; BCD_to_7_segmen:seven_seg_display_4|seven_seg[3,4]        ; Stuck at GND due to stuck port data_in                              ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[3]   ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
+; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[1,3] ; Merged with BCD_2_digit_7_seg_display:convert_binary|int_data_4r[1] ;
+; BCD_to_7_segmen:seven_seg_display_4|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
+; BCD_to_7_segmen:seven_seg_display_5|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
+; BCD_to_7_segmen:seven_seg_display_6|seven_seg[5]          ; Stuck at GND due to stuck port data_in                              ;
 ; Total Number of Removed Registers = 55                    ;                                                                     ;
 +-----------------------------------------------------------+---------------------------------------------------------------------+
 
@@ -397,10 +396,21 @@ Encoding Type:  One-Hot
 +------------------------------+---------------------------+----------------------------------------------------------+
 ; Register name                ; Reason for Removal        ; Registers Removed due to This Register                   ;
 +------------------------------+---------------------------+----------------------------------------------------------+
-; division:division|B_OVERFLOW ; Stuck at GND              ; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0], ;
-;                              ; due to stuck port data_in ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[4],        ;
+; division:division|B_OVERFLOW ; Stuck at GND              ; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[2], ;
+;                              ; due to stuck port data_in ; BCD_2_digit_7_seg_display:convert_binary|int_data_6r[0], ;
+;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[2], ;
+;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_5r[0], ;
+;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[2], ;
+;                              ;                           ; BCD_2_digit_7_seg_display:convert_binary|int_data_4r[0], ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[3],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[4],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[3],        ;
 ;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[4],        ;
-;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[4]         ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[3],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[4],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_4|seven_seg[5],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_5|seven_seg[5],        ;
+;                              ;                           ; BCD_to_7_segmen:seven_seg_display_6|seven_seg[5]         ;
 +------------------------------+---------------------------+----------------------------------------------------------+
 
 
@@ -424,18 +434,18 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
-; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|Result[1]     ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_B[0]                ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|Result[7]     ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_B[3]                ;
 ; 3:1                ; 10 bits   ; 20 LEs        ; 0 LEs                ; 20 LEs                 ; Yes        ; |calculator|Multiplication:multiplication|Data_Product[0]          ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_A[3]                ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|int_data_2[3] ;
-; 4:1                ; 46 bits   ; 92 LEs        ; 0 LEs                ; 92 LEs                 ; Yes        ; |calculator|division:division|bit_counter[6]                       ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |calculator|Multiplication:multiplication|Data_A[2]                ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; Yes        ; |calculator|BCD_2_digit_7_seg_display:convert_binary|int_data_1[1] ;
+; 4:1                ; 46 bits   ; 92 LEs        ; 0 LEs                ; 92 LEs                 ; Yes        ; |calculator|division:division|bit_counter[2]                       ;
 ; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_B[5]                            ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_A[5]                            ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |calculator|division:division|Data_A[8]                            ;
 ; 6:1                ; 5 bits    ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; Yes        ; |calculator|division:division|Data_A[0]                            ;
 ; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |calculator|division:division|state                                ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux0                          ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:sub|Mux2                          ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |calculator|adder_and_subtractor:add|Mux2                          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------+
 
 
@@ -876,21 +886,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA CLR SCLR      ; 34                          ;
 ;     ENA SCLR          ; 95                          ;
 ;     plain             ; 50                          ;
-; arriav_lcell_comb     ; 1310                        ;
+; arriav_lcell_comb     ; 1307                        ;
 ;     arith             ; 653                         ;
 ;         0 data inputs ; 120                         ;
 ;         1 data inputs ; 156                         ;
 ;         2 data inputs ; 50                          ;
 ;         3 data inputs ; 213                         ;
 ;         4 data inputs ; 114                         ;
-;     normal            ; 575                         ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 571                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 4                           ;
-;         2 data inputs ; 235                         ;
-;         3 data inputs ; 140                         ;
+;         2 data inputs ; 232                         ;
+;         3 data inputs ; 143                         ;
 ;         4 data inputs ; 79                          ;
-;         5 data inputs ; 48                          ;
-;         6 data inputs ; 68                          ;
+;         5 data inputs ; 38                          ;
+;         6 data inputs ; 74                          ;
 ;     shared            ; 82                          ;
 ;         0 data inputs ; 21                          ;
 ;         1 data inputs ; 51                          ;
@@ -898,7 +910,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 78                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 15.70                       ;
-; Average LUT depth     ; 9.53                        ;
+; Average LUT depth     ; 9.54                        ;
 +-----------------------+-----------------------------+
 
 
@@ -917,113 +929,113 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Nov 14 19:40:05 2022
+    Info: Processing started: Mon Nov 14 20:17:33 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off calculator -c calculator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file adder_and_subtractor.vhd
-    Info (12022): Found design unit 1: adder_and_subtractor-data_flow File: D:/year_2/Digital Lab/Calculator/adder_and_subtractor.vhd Line: 17
-    Info (12023): Found entity 1: adder_and_subtractor File: D:/year_2/Digital Lab/Calculator/adder_and_subtractor.vhd Line: 4
+    Info (12022): Found design unit 1: adder_and_subtractor-data_flow File: D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd Line: 17
+    Info (12023): Found entity 1: adder_and_subtractor File: D:/year_2/Digital Lab/calculator git/Project/adder_and_subtractor.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file full_adder.vhd
-    Info (12022): Found design unit 1: Full_Adder-data_flow File: D:/year_2/Digital Lab/Calculator/Full_Adder.vhd Line: 10
-    Info (12023): Found entity 1: Full_Adder File: D:/year_2/Digital Lab/Calculator/Full_Adder.vhd Line: 4
+    Info (12022): Found design unit 1: Full_Adder-data_flow File: D:/year_2/Digital Lab/calculator git/Project/Full_Adder.vhd Line: 10
+    Info (12023): Found entity 1: Full_Adder File: D:/year_2/Digital Lab/calculator git/Project/Full_Adder.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_to_7_segmen.vhd
-    Info (12022): Found design unit 1: BCD_to_7_segmen-data_process File: D:/year_2/Digital Lab/Calculator/BCD_to_7_segmen.vhd Line: 13
-    Info (12023): Found entity 1: BCD_to_7_segmen File: D:/year_2/Digital Lab/Calculator/BCD_to_7_segmen.vhd Line: 4
+    Info (12022): Found design unit 1: BCD_to_7_segmen-data_process File: D:/year_2/Digital Lab/calculator git/Project/BCD_to_7_segmen.vhd Line: 13
+    Info (12023): Found entity 1: BCD_to_7_segmen File: D:/year_2/Digital Lab/calculator git/Project/BCD_to_7_segmen.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file bcd_2_digit_7_seg_display.vhd
-    Info (12022): Found design unit 1: BCD_2_digit_7_seg_display-Behavioral File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 34
-    Info (12023): Found entity 1: BCD_2_digit_7_seg_display File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 5
+    Info (12022): Found design unit 1: BCD_2_digit_7_seg_display-Behavioral File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 34
+    Info (12023): Found entity 1: BCD_2_digit_7_seg_display File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file division.vhd
-    Info (12022): Found design unit 1: division-data_flow File: D:/year_2/Digital Lab/Calculator/division.vhd Line: 16
-    Info (12023): Found entity 1: division File: D:/year_2/Digital Lab/Calculator/division.vhd Line: 6
+    Info (12022): Found design unit 1: division-data_flow File: D:/year_2/Digital Lab/calculator git/Project/division.vhd Line: 16
+    Info (12023): Found entity 1: division File: D:/year_2/Digital Lab/calculator git/Project/division.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file calculator.vhd
-    Info (12022): Found design unit 1: calculator-struct File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 22
-    Info (12023): Found entity 1: calculator File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 4
+    Info (12022): Found design unit 1: calculator-struct File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 22
+    Info (12023): Found entity 1: calculator File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file multiplication.vhd
-    Info (12022): Found design unit 1: Multiplication-Behave File: D:/year_2/Digital Lab/Calculator/Multiplication.vhd Line: 14
-    Info (12023): Found entity 1: Multiplication File: D:/year_2/Digital Lab/Calculator/Multiplication.vhd Line: 6
+    Info (12022): Found design unit 1: Multiplication-Behave File: D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd Line: 14
+    Info (12023): Found entity 1: Multiplication File: D:/year_2/Digital Lab/calculator git/Project/Multiplication.vhd Line: 6
 Info (12127): Elaborating entity "calculator" for the top level hierarchy
-Info (12129): Elaborating entity "adder_and_subtractor" using architecture "A:data_flow" for hierarchy "adder_and_subtractor:add" File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 43
-Info (12129): Elaborating entity "Multiplication" using architecture "A:behave" for hierarchy "Multiplication:multiplication" File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 66
-Info (12129): Elaborating entity "division" using architecture "A:data_flow" for hierarchy "division:division" File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 76
-Info (12129): Elaborating entity "BCD_2_digit_7_seg_display" using architecture "A:behavioral" for hierarchy "BCD_2_digit_7_seg_display:convert_binary" File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 88
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(121): signal "int_data_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 121
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(122): signal "int_data_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 122
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(123): signal "int_data_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 123
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(124): signal "int_data_4r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 124
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(125): signal "int_data_5r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 125
-Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(126): signal "int_data_6r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 126
-Info (12129): Elaborating entity "BCD_to_7_segmen" using architecture "A:data_process" for hierarchy "BCD_to_7_segmen:seven_seg_display_1" File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 116
+Info (12129): Elaborating entity "adder_and_subtractor" using architecture "A:data_flow" for hierarchy "adder_and_subtractor:add" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 43
+Info (12129): Elaborating entity "Multiplication" using architecture "A:behave" for hierarchy "Multiplication:multiplication" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 66
+Info (12129): Elaborating entity "division" using architecture "A:data_flow" for hierarchy "division:division" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 76
+Info (12129): Elaborating entity "BCD_2_digit_7_seg_display" using architecture "A:behavioral" for hierarchy "BCD_2_digit_7_seg_display:convert_binary" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 88
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(121): signal "int_data_1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 121
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(122): signal "int_data_2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 122
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(123): signal "int_data_3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 123
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(124): signal "int_data_4r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 124
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(125): signal "int_data_5r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 125
+Warning (10492): VHDL Process Statement warning at BCD_2_digit_7_seg_display.vhd(126): signal "int_data_6r" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 126
+Info (12129): Elaborating entity "BCD_to_7_segmen" using architecture "A:data_process" for hierarchy "BCD_to_7_segmen:seven_seg_display_1" File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 116
 Info (278001): Inferred 12 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div3" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 74
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div5" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 94
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div1" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 63
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div2" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod3" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div4" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 93
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod5" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 93
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div0" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 62
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod1" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 62
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod2" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 72
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod4" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 92
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod0" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 61
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 74
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" with the following parameter: File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 74
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div5" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 94
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div1" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 63
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div4" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 93
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod5" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 93
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Div0" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod1" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 62
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 72
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod4" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 92
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "BCD_2_digit_7_seg_display:convert_binary|Mod0" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 61
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div3" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 74
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_hbm.tdf
-    Info (12023): Found entity 1: lpm_divide_hbm File: D:/year_2/Digital Lab/Calculator/db/lpm_divide_hbm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_hbm File: D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_hbm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_nlh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_nlh File: D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_nlh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_nlh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_nlh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_kve.tdf
-    Info (12023): Found entity 1: alt_u_div_kve File: D:/year_2/Digital Lab/Calculator/db/alt_u_div_kve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" with the following parameter: File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (12023): Found entity 1: alt_u_div_kve File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_kve.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Div2" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "4"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_ebm.tdf
-    Info (12023): Found entity 1: lpm_divide_ebm File: D:/year_2/Digital Lab/Calculator/db/lpm_divide_ebm.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_ebm File: D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_ebm.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_klh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_klh File: D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_klh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_klh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_klh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_eve.tdf
-    Info (12023): Found entity 1: alt_u_div_eve File: D:/year_2/Digital Lab/Calculator/db/alt_u_div_eve.tdf Line: 23
-Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
-Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" with the following parameter: File: D:/year_2/Digital Lab/Calculator/BCD_2_digit_7_seg_display.vhd Line: 73
+    Info (12023): Found entity 1: alt_u_div_eve File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_eve.tdf Line: 23
+Info (12130): Elaborated megafunction instantiation "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
+Info (12133): Instantiated megafunction "BCD_2_digit_7_seg_display:convert_binary|lpm_divide:Mod3" with the following parameter: File: D:/year_2/Digital Lab/calculator git/Project/BCD_2_digit_7_seg_display.vhd Line: 73
     Info (12134): Parameter "LPM_WIDTHN" = "10"
     Info (12134): Parameter "LPM_WIDTHD" = "10"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_u4m.tdf
-    Info (12023): Found entity 1: lpm_divide_u4m File: D:/year_2/Digital Lab/Calculator/db/lpm_divide_u4m.tdf Line: 25
+    Info (12023): Found entity 1: lpm_divide_u4m File: D:/year_2/Digital Lab/calculator git/Project/db/lpm_divide_u4m.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_1nh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_1nh File: D:/year_2/Digital Lab/Calculator/db/sign_div_unsign_1nh.tdf Line: 25
+    Info (12023): Found entity 1: sign_div_unsign_1nh File: D:/year_2/Digital Lab/calculator git/Project/db/sign_div_unsign_1nh.tdf Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_82f.tdf
-    Info (12023): Found entity 1: alt_u_div_82f File: D:/year_2/Digital Lab/Calculator/db/alt_u_div_82f.tdf Line: 23
+    Info (12023): Found entity 1: alt_u_div_82f File: D:/year_2/Digital Lab/calculator git/Project/db/alt_u_div_82f.tdf Line: 23
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "seven_seg_digit_4r[3]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_4r[4]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_4r[5]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 17
-    Warning (13410): Pin "seven_seg_digit_5r[3]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_5r[4]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_5r[5]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 18
-    Warning (13410): Pin "seven_seg_digit_6r[3]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 19
-    Warning (13410): Pin "seven_seg_digit_6r[4]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 19
-    Warning (13410): Pin "seven_seg_digit_6r[5]" is stuck at GND File: D:/year_2/Digital Lab/Calculator/calculator.vhd Line: 19
+    Warning (13410): Pin "seven_seg_digit_4r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
+    Warning (13410): Pin "seven_seg_digit_4r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
+    Warning (13410): Pin "seven_seg_digit_4r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 17
+    Warning (13410): Pin "seven_seg_digit_5r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
+    Warning (13410): Pin "seven_seg_digit_5r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
+    Warning (13410): Pin "seven_seg_digit_5r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 18
+    Warning (13410): Pin "seven_seg_digit_6r[3]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
+    Warning (13410): Pin "seven_seg_digit_6r[4]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
+    Warning (13410): Pin "seven_seg_digit_6r[5]" is stuck at GND File: D:/year_2/Digital Lab/calculator git/Project/calculator.vhd Line: 19
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1478 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1475 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 63 output pins
-    Info (21061): Implemented 1400 logic cells
+    Info (21061): Implemented 1397 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4866 megabytes
-    Info: Processing ended: Mon Nov 14 19:40:13 2022
+    Info: Peak virtual memory: 4868 megabytes
+    Info: Processing ended: Mon Nov 14 20:17:41 2022
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Total CPU time (on all processors): 00:00:08
 
 

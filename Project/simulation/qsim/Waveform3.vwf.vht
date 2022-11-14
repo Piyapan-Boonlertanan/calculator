@@ -19,7 +19,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "11/13/2022 17:41:00"
+-- Generated on "11/14/2022 20:16:33"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          calculator
 -- 
@@ -42,6 +42,12 @@ SIGNAL Operation : STD_LOGIC_VECTOR(1 DOWNTO 0);
 SIGNAL Remainder : STD_LOGIC_VECTOR(9 DOWNTO 0);
 SIGNAL Result : STD_LOGIC_VECTOR(9 DOWNTO 0);
 SIGNAL RST_N : STD_LOGIC;
+SIGNAL seven_seg_digit_1 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seven_seg_digit_2 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seven_seg_digit_3 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seven_seg_digit_4r : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seven_seg_digit_5r : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seven_seg_digit_6r : STD_LOGIC_VECTOR(6 DOWNTO 0);
 SIGNAL Start : STD_LOGIC;
 COMPONENT calculator
 	PORT (
@@ -53,6 +59,12 @@ COMPONENT calculator
 	Remainder : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
 	Result : OUT STD_LOGIC_VECTOR(9 DOWNTO 0);
 	RST_N : IN STD_LOGIC;
+	seven_seg_digit_1 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_2 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_3 : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_4r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_5r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seven_seg_digit_6r : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
 	Start : IN STD_LOGIC
 	);
 END COMPONENT;
@@ -68,6 +80,12 @@ BEGIN
 	Remainder => Remainder,
 	Result => Result,
 	RST_N => RST_N,
+	seven_seg_digit_1 => seven_seg_digit_1,
+	seven_seg_digit_2 => seven_seg_digit_2,
+	seven_seg_digit_3 => seven_seg_digit_3,
+	seven_seg_digit_4r => seven_seg_digit_4r,
+	seven_seg_digit_5r => seven_seg_digit_5r,
+	seven_seg_digit_6r => seven_seg_digit_6r,
 	Start => Start
 	);
 -- A[4]
@@ -109,25 +127,25 @@ END PROCESS t_prcs_B_4;
 -- B[3]
 t_prcs_B_3: PROCESS
 BEGIN
-	B(3) <= '0';
+	B(3) <= '1';
 WAIT;
 END PROCESS t_prcs_B_3;
 -- B[2]
 t_prcs_B_2: PROCESS
 BEGIN
-	B(2) <= '1';
+	B(2) <= '0';
 WAIT;
 END PROCESS t_prcs_B_2;
 -- B[1]
 t_prcs_B_1: PROCESS
 BEGIN
-	B(1) <= '0';
+	B(1) <= '1';
 WAIT;
 END PROCESS t_prcs_B_1;
 -- B[0]
 t_prcs_B_0: PROCESS
 BEGIN
-	B(0) <= '1';
+	B(0) <= '0';
 WAIT;
 END PROCESS t_prcs_B_0;
 
@@ -145,13 +163,13 @@ END PROCESS t_prcs_CLK;
 -- Operation[1]
 t_prcs_Operation_1: PROCESS
 BEGIN
-	Operation(1) <= '0';
+	Operation(1) <= '1';
 WAIT;
 END PROCESS t_prcs_Operation_1;
 -- Operation[0]
 t_prcs_Operation_0: PROCESS
 BEGIN
-	Operation(0) <= '0';
+	Operation(0) <= '1';
 WAIT;
 END PROCESS t_prcs_Operation_0;
 
@@ -166,8 +184,10 @@ END PROCESS t_prcs_RST_N;
 t_prcs_Start: PROCESS
 BEGIN
 	Start <= '1';
-	WAIT FOR 30000 ps;
+	WAIT FOR 20000 ps;
 	Start <= '0';
+	WAIT FOR 20000 ps;
+	Start <= '1';
 WAIT;
 END PROCESS t_prcs_Start;
 END calculator_arch;
