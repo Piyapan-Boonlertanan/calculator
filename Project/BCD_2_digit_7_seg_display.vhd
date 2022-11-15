@@ -38,83 +38,82 @@ signal int_data_3 : integer := 0;
 signal int_data_4r : integer := 0;
 signal int_data_5r : integer := 0;
 signal int_data_6r : integer := 0;
+signal EOverflow_sub : std_logic := '0';
+signal EB_overflow_div : std_logic := '0';
+signal RRemainder : STD_LOGIC_VECTOR (2*N-1 downto 0);
+signal RResult : STD_LOGIC_VECTOR (2*N-1 downto 0);
+signal DDone : std_logic := '0';
 	begin
 		process (clk_i, rst_i)
 			begin
-				if (rst_i = '1') then
+				if (rst_i = '0') then
 					int_data_6r <= 0;
 					int_data_5r <= 0;
 					int_data_4r <= 0;
 					int_data_3 <= 0;
 					int_data_2 <= 0;
 					int_data_1 <= 0;
+					EOverflow_sub <= '0';
+					EB_overflow_div <= '0';
+					
 					
 				elsif rising_edge(clk_i) then
 					case mode is
 						when "11" =>
-							Result <= Result_add;
-							Done <= done_add;
-							
-							int_data_6r <= 0;
-							int_data_5r <= 0;
-							int_data_4r <= 0;
-							int_data_3 <= conv_integer (unsigned(Result_add)) mod 10;
-							int_data_2 <= ((conv_integer (unsigned(Result_add)) / 10) mod 10);
-							int_data_1 <= conv_integer (unsigned(Result_add)) / 100;
+							RResult <= Result_add;
+							DDone <= done_add;
+							RRemainder <= (others => '0');
+				
+						
 							
 						when "10" =>
-							Result <= Result_sub;
-							Done <= done_sub;
-							
-							int_data_6r <= 0;
-							int_data_5r <= 0;
-							int_data_4r <= 0;
-							int_data_3 <= conv_integer (unsigned(Result_sub)) mod 10;
-							int_data_2 <= ((conv_integer (unsigned(Result_sub)) / 10) mod 10);
-							int_data_1 <= conv_integer (unsigned(Result_sub)) / 100;
-							
-							if Overflow_sub = '1' then
-								int_data_6r <= 10;
-								int_data_5r <= 10;
-								int_data_4r <= 10;
-								int_data_3 <= 10;
-								int_data_2 <= 10;
-								int_data_1 <= 10;
-							end if;
+							RResult <= Result_sub;
+							DDone <= done_sub;
+							EOverflow_sub <= Overflow_sub;
+							RRemainder <= (others => '0');
+						
 							
 						when "01" =>
-							Result <= Result_multi;
-							Done <= done_multi;
+							RResult <= Result_multi;
+							DDone <= done_multi;
+							RRemainder <= (others => '0');
 							
-							int_data_6r <= 0;
-							int_data_5r <= 0;
-							int_data_4r <= 0;
-							int_data_3 <= conv_integer (unsigned(Result_multi)) mod 10;
-							int_data_2 <= ((conv_integer (unsigned(Result_multi)) / 10) mod 10);
-							int_data_1 <= conv_integer (unsigned(Result_multi)) / 100;
 							
 						when "00" =>
-							Result <= Result_division;
-							Remainder <= Remainder_division;
-							Done <= done_division;
+							RResult <= Result_division;
+							RRemainder <= Remainder_division;
+							DDone <= done_division;
+							EB_overflow_div <= B_overflow_div;
 							
-							if B_overflow_div = '0'  then
-								int_data_6r <= 10;
-								int_data_5r <= 10;
-								int_data_4r <= 10;
-								int_data_3 <= 10;
-								int_data_2 <= 10;
-								int_data_1 <= 10;
-							else
-								int_data_6r <= conv_integer (unsigned(Remainder_division)) mod 10;
-								int_data_5r <= ((conv_integer (unsigned(Remainder_division)) / 10) mod 10);
-								int_data_4r <= conv_integer (unsigned(Remainder_division)) / 100;
-								int_data_3 <= conv_integer (unsigned(Result_division)) mod 10;
-								int_data_2 <= ((conv_integer (unsigned(Result_division)) / 10) mod 10);
-								int_data_1 <= conv_integer (unsigned(Result_division)) / 100;
-							end if;
 						
 					end case;
+					
+					if DDone = '1' then
+						int_data_6r <= conv_integer (unsigned(RRemainder)) mod 10;
+						int_data_5r <= ((conv_integer (unsigned(RRemainder)) / 10) mod 10);
+						int_data_4r <= conv_integer (unsigned(RRemainder)) / 100;
+						int_data_3 <= conv_integer (unsigned(RResult)) mod 10;
+						int_data_2 <= ((conv_integer (unsigned(RResult)) / 10) mod 10);
+						int_data_1 <= conv_integer (unsigned(RResult)) / 100;
+					end if;
+					
+					if EOverflow_sub = '1' then
+						int_data_6r <= 10;
+						int_data_5r <= 10;
+						int_data_4r <= 10;
+						int_data_3 <= 10;
+						int_data_2 <= 10;
+						int_data_1 <= 10;
+						
+					elsif EB_overflow_div = '1'  then
+						int_data_6r <= 10;
+						int_data_5r <= 10;
+						int_data_4r <= 10;
+						int_data_3 <= 10;
+						int_data_2 <= 10;
+						int_data_1 <= 10;
+						
+					end if;
 							
 				end if;
 				

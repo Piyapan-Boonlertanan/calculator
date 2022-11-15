@@ -8,257 +8,100 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/year_2/Digital Lab/Project/simulation/qsim
-<<<<<<< HEAD
-w1668436564
-Z1 =======
-w1668434545
-R0
-<<<<<<< HEAD
-Z2 dC:/DATA/2nd KMUTNB/Logic design/calculator/Project/simulation/qsim
-R1
-Z3 dD:/year_2/Digital Lab/calculator git/Project/simulation/qsim
-<<<<<<< HEAD
-!s110 1668436565
-!i10b 1
-!s108 1668436565.000000
-Z4 !s90 -work|work|calculator.vho|
-Z5 !s107 calculator.vho|
-R1
-Z6 !s110 1668434546
-!i10b 1
-Z7 !s108 1668434546.000000
-R4
-R5
-R0
-<<<<<<< HEAD
-Z8 l4644
-Z9 L59 48376
-Z10 V8ZfM2ZYUQDoOa<@A6SESd0
-Z11 !s100 5`e`f9WIh9:kNQm7X2TmJ3
-Z12 OV;C;2020.1;71
-32
-!s110 1668436566
-!i10b 1
-R1
-l3045
-L59 32932
-V?RLEm]:QdccVm?XlE;gcN2
-!s100 Gg<9K1hTFoMg]EBXg67NQ1
-R12
-32
-R0
-<<<<<<< HEAD
-Z13 w1668436563
-R1
-w1668434544
-R0
-<<<<<<< HEAD
-Z14 !s110 1668436567
-!i10b 1
-!s108 1668436567.000000
-!s90 -work|work|Waveform10.vwf.vht|
-!s107 Waveform10.vwf.vht|
-R1
-R6
-!i10b 1
-R7
-Z15 !s90 -work|work|Waveform4.vwf.vht|
-Z16 !s107 Waveform4.vwf.vht|
-R0
-<<<<<<< HEAD
-Z17 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
-!i122 249
-l71
-Z18 L34 160
-V[M_FKI:Q=Ofn`];J=^Oaz1
-!s100 l]1;SoG;AX;5EK0SVA]Sf2
-R12
-32
-R14
-R1
-R17
-!i122 249
-l71
-R18
-Z19 VaoS;zoUdE^L;VWd<51DlZ1
-Z20 !s100 eIB`c:N^3Na;AJ[Yl=3AU0
-R12
-32
-R6
-R0
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-Z21 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
-Z22 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
-Z23 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
-Z24 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z25 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
-Z26 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z27 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z28 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z29 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 248
-R0
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-Z30 8calculator.vho
-Z31 Fcalculator.vho
-l0
-Z32 L39 1
-Z33 V0eL5=4n;B;XaiJ4ehNiFn1
-Z34 !s100 BSBaN7]H:ldDgz4`LiN>n2
-R12
-32
-R0
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-!i113 1
-Z35 o-work work
-Z36 tExplicit 1 CvgOpt 0
-R0
-Astructure
-R21
-R22
-R23
-R24
-R25
-R26
-R27
-R28
-R29
-Z37 DEx4 work 10 calculator 0 22 0eL5=4n;B;XaiJ4ehNiFn1
-!i122 248
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-R6
-!i10b 1
-R7
-R4
-R5
-!i113 1
-R35
-R36
-R0
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-R27
-R28
-!i122 249
-R3
-8Waveform10.vwf.vht
-FWaveform10.vwf.vht
-l0
-Z38 L32 1
-Z39 VONYLfmN4i24ck=ed:=dcV3
-Z40 !s100 IPb@^5SAm@@[@VQehPIm92
-R12
-32
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-!i113 1
-R35
-R13
-R0
-Acalculator_arch
-R27
-R28
->>>>>>> 2ebe7d999722881f6ec94f0793c368851ac50cd4
-!i10b 1
-R7
-R15
-R16
-!i113 1
-R35
-R13
-R0
+Z0 dD:/year_2/Digital Lab/FinalCalculator/simulation/qsim
 Ecalculator
-Z41 w1668439878
-R21
-R22
-R23
-R24
-R25
-R26
-R27
-R28
-R29
-!i122 254
-R2
-R30
-R31
+Z1 w1668487503
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 10
+R0
+Z11 8calculator.vho
+Z12 Fcalculator.vho
 l0
-R32
-R33
-R34
-R12
+L39 1
+V0eL5=4n;B;XaiJ4ehNiFn1
+!s100 BSBaN7]H:ldDgz4`LiN>n2
+Z13 OV;C;2020.1;71
 32
-!s110 1668439879
+!s110 1668487503
 !i10b 1
-Z42 !s108 1668439879.000000
+Z14 !s108 1668487503.000000
+Z15 !s90 -work|work|calculator.vho|
+Z16 !s107 calculator.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
 R4
 R5
-!i113 1
-R35
-R36
-Astructure
-R21
-R22
-R23
-R24
-R25
-R26
-R27
-R28
-R29
-R37
-!i122 254
+R6
+R7
 R8
 R9
 R10
-R11
-R12
+DEx4 work 10 calculator 0 22 0eL5=4n;B;XaiJ4ehNiFn1
+!i122 10
+l4646
+L59 48403
+VRiSJT5R4HRAnU7LV]ZXdI2
+!s100 iH1i]WC<PKY`elYQ?FR@Z2
+R13
 32
-!s110 1668439880
+Z19 !s110 1668487504
 !i10b 1
-R42
-R4
-R5
+R14
+R15
+R16
 !i113 1
-R35
-R36
-Ecalculator_vhd_vec_tst
-Z43 w1668439877
-R27
-R28
-!i122 255
-R2
-Z44 8Waveform1.vwf.vht
-Z45 FWaveform1.vwf.vht
-l0
-R38
-R39
-R40
-R12
-32
-Z46 !s110 1668439881
-!i10b 1
-Z47 !s108 1668439881.000000
-Z48 !s90 -work|work|Waveform1.vwf.vht|
-Z49 !s107 Waveform1.vwf.vht|
-!i113 1
-R35
-R36
-Acalculator_arch
-R27
-R28
 R17
-!i122 255
-l71
 R18
-V_8?ZWd:zdR13RSj58M1592
-!s100 3IgHD=h>B0goPE8QnJGUP0
-R12
+Ecalculator_vhd_vec_tst
+Z20 w1668487502
+R8
+R9
+!i122 11
+R0
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
+l0
+L32 1
+VONYLfmN4i24ck=ed:=dcV3
+!s100 IPb@^5SAm@@[@VQehPIm92
+R13
 32
-R46
+R19
 !i10b 1
-R47
-R48
-R49
+Z23 !s108 1668487504.000000
+Z24 !s90 -work|work|Waveform1.vwf.vht|
+Z25 !s107 Waveform1.vwf.vht|
 !i113 1
-R35
-R36
+R17
+R18
+Acalculator_arch
+R8
+R9
+Z26 DEx4 work 22 calculator_vhd_vec_tst 0 22 ONYLfmN4i24ck=ed:=dcV3
+!i122 11
+l71
+Z27 L34 160
+Z28 VzY8ZzfEcZnDOEd]MV`@PQ3
+Z29 !s100 GX?@Q<<LTb10gCDfi1C=g0
+R13
+32
+R19
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R17
+R18

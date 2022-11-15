@@ -26,7 +26,7 @@ begin
 	
 	process (RST_N, CLK, START)
 	begin 
-		if RST_N ='1' then --asyn. reset(active-low)
+		if RST_N ='0' then --asyn. reset(active-low)
 			state <= S0;
 			Data_A <= (others => '0');
 			Data_B <= (others => '0');

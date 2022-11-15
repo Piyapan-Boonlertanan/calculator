@@ -34,9 +34,10 @@ architecture data_flow of adder_and_subtractor is
 
 		process (reset, clock, START)
 		begin 
-			if reset ='1' then
+			if reset ='0' then
 				state <= s0;
 				sum  <= (others => '0');
+				cout_sub_overflow <= '0';
 
 			elsif rising_edge(clock) then
 				case state is 

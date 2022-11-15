@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(5CEBA4F23) Path("D:/year_2/Digital Lab/Calculator/output_files/") File("calculator.sof") MfrSpec(OpMask(1));
+		Device PartName(5CEBA4F23) Path("D:/year_2/Digital Lab/FinalCalculator/output_files/") File("calculator.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

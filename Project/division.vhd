@@ -29,13 +29,14 @@ begin
 	
 	process (RST_N, CLK, START)
 	begin
-		if RST_N = '1' then
+		if RST_N = '0' then
 			state <= S0;
 			Data_A <= (others => '0');
 			Data_B <= (others => '0');
 			Data_Quotient <= (others => '0');
 			Q <= (others => '0');
 			R <= (others => '0');
+			B_OVERFLOW <= '0';
 			
 		elsif rising_edge(CLK) then
 			case state is
@@ -47,9 +48,9 @@ begin
 
 						case B is
 							when "00000" =>
-								B_OVERFLOW <= '0';
-							when others =>
 								B_OVERFLOW <= '1';
+							when others =>
+								B_OVERFLOW <= '0';
 								state <= S1;
 						end case;	
 						

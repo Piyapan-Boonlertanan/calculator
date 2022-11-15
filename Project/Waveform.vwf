@@ -1,8 +1,8 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/Calculator/Waveform.vwf" --testbench_file="D:/year_2/Digital Lab/Calculator/simulation/qsim/Waveform.vwf.vht"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/Calculator/Waveform.vwf" --testbench_file="D:/year_2/Digital Lab/Calculator/simulation/qsim/Waveform.vwf.vht"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/Calculator/simulation/qsim/" calculator -c calculator</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/Calculator/simulation/qsim/" calculator -c calculator</tnetlist_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/FinalCalculator/Waveform.vwf" --testbench_file="D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/Waveform.vwf.vht"</ftestbench_cmd>
+<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off calculator -c calculator --vector_source="D:/year_2/Digital Lab/FinalCalculator/Waveform.vwf" --testbench_file="D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/Waveform.vwf.vht"</ttestbench_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/" calculator -c calculator</fnetlist_cmd>
+<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory="D:/year_2/Digital Lab/FinalCalculator/simulation/qsim/" calculator -c calculator</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vcom -work work calculator.vho
@@ -20,7 +20,6 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -39,7 +38,6 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
-
 </modelsim_script_timing>
 <hdl_lang>vhdl</hdl_lang>
 </simulation_settings>*/
@@ -982,7 +980,7 @@ TRANSITION_LIST("A[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -991,7 +989,7 @@ TRANSITION_LIST("A[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1000,7 +998,7 @@ TRANSITION_LIST("A[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
 	}
 }
 
@@ -1009,7 +1007,7 @@ TRANSITION_LIST("A[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1036,7 +1034,7 @@ TRANSITION_LIST("B[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1063,12 +1061,14 @@ TRANSITION_LIST("CLK")
 	NODE
 	{
 		REPEAT = 1;
+		LEVEL 1 FOR 10.0;
 		NODE
 		{
-			REPEAT = 50;
+			REPEAT = 49;
 			LEVEL 0 FOR 10.0;
 			LEVEL 1 FOR 10.0;
 		}
+		LEVEL 0 FOR 10.0;
 	}
 }
 
@@ -1095,7 +1095,7 @@ TRANSITION_LIST("Operation[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1284,7 +1284,7 @@ TRANSITION_LIST("RST_N")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -1672,8 +1672,8 @@ TRANSITION_LIST("Start")
 	{
 		REPEAT = 1;
 		LEVEL 1 FOR 30.0;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 930.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 950.0;
 	}
 }
 
