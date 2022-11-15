@@ -52,11 +52,21 @@ architecture data_flow of adder_and_subtractor is
 						end if;
 
 					when s1 =>
-						if (bit_counter < (N+1)) then
+						if (bit_counter < (N)) then
 							sum(bit_counter) <= (A(bit_counter) xor (B(bit_counter) xor M)) xor cout(bit_counter);
 							cout(bit_counter+1) <= ((A(bit_counter) xor (B(bit_counter) xor M)) and cout(bit_counter)) or (A(bit_counter) and (B(bit_counter) xor M));
 							bit_counter <= (bit_counter+1);
 						else
+							if M = '0' then
+								sum(N) <= cout(N);
+							elsif M = '1' then
+								if cout(N) = '0' then
+									cout_sub_overflow <= '1';
+								elsif cout(N) = '1' then
+									cout_sub_overflow <= '0';
+								end if;
+								
+							end if;
 							state <= s0;
 							cout_sub_overflow <= cout(bit_counter) xor '1';
 							bit_counter <= 0;

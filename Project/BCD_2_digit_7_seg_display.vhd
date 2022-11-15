@@ -105,7 +105,7 @@ signal DDone : std_logic := '0';
 						int_data_2 <= 10;
 						int_data_1 <= 10;
 						
-					elsif EB_overflow_div = '1'  then
+					elsif EB_overflow_div = '1' then
 						int_data_6r <= 10;
 						int_data_5r <= 10;
 						int_data_4r <= 10;

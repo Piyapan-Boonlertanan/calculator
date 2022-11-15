@@ -15,10 +15,10 @@ entity division is
 	
 architecture data_flow of division is
 	type state_type is (S0,S1,S2);
-	signal Data_A :std_logic_vector(2*N-1 downto 0):=(others => '0');
-	signal Data_B :std_logic_vector(2*N-1 downto 0):=(others => '0');
+	signal Data_A :std_logic_vector(2*N downto 0):=(others => '0');
+	signal Data_B :std_logic_vector(2*N downto 0):=(others => '0');
 	signal Data_Quotient :std_logic_vector(2*N-1 downto 0):=(others => '0');
-	signal Data_Remainder :std_logic_vector(2*N-1 downto 0):=(others => '0');
+	signal Data_Remainder :std_logic_vector(2*N downto 0):=(others => '0');
 	signal bit_counter : integer := 0;
 	signal state : state_type := S0;
 	signal P_done : std_logic := '0';
@@ -50,7 +50,6 @@ begin
 							when "00000" =>
 								B_OVERFLOW <= '1';
 							when others =>
-								B_OVERFLOW <= '0';
 								state <= S1;
 						end case;	
 						
@@ -76,7 +75,7 @@ begin
 					end if;
 					
 				when S2 =>
-					if Data_A(2*N-1) = '0' then
+					if Data_A(2*N) = '0' then
 						Data_Quotient <= std_logic_vector(shift_left(unsigned(Data_Quotient),1));
 						Data_Quotient(0) <= '1'; 
 						Data_B <= std_logic_vector(shift_right(unsigned(Data_B),1));
@@ -88,7 +87,6 @@ begin
 						bit_counter <= bit_counter + 1;
 					end if;
 						state <= S1;
-						
 					
 				when others =>
 					state <= S0;
