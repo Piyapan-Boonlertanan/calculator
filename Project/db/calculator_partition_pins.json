@@ -4,6 +4,10 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "Done",
+					"strict" : false
+				},
+				{
 					"name" : "seven_seg_digit_1[0]",
 					"strict" : false
 				},
@@ -172,11 +176,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLK",
-					"strict" : false
-				},
-				{
-					"name" : "RST_N",
+					"name" : "Operation[1]",
 					"strict" : false
 				},
 				{
@@ -184,7 +184,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Operation[1]",
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST_N",
 					"strict" : false
 				},
 				{
