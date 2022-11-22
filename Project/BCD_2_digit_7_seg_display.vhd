@@ -61,6 +61,7 @@ signal DDone : std_logic := '0';
 					case mode is
 						when "11" =>
 							RResult <= Result_add;
+							Result <= Result_add;
 							DDone <= done_add;
 							Done <= done_add;
 							RRemainder <= (others => '0');
@@ -69,6 +70,7 @@ signal DDone : std_logic := '0';
 							
 						when "10" =>
 							RResult <= Result_sub;
+							Result <= Result_sub;
 							DDone <= done_sub;
 							Done <= done_sub;
 							EOverflow_sub <= Overflow_sub;
@@ -77,6 +79,7 @@ signal DDone : std_logic := '0';
 							
 						when "01" =>
 							RResult <= Result_multi;
+							Result <= Result_multi;
 							Done <= done_multi;
 							DDone <= done_multi;
 							RRemainder <= (others => '0');
@@ -84,7 +87,9 @@ signal DDone : std_logic := '0';
 							
 						when "00" =>
 							RResult <= Result_division;
+							Result <= Result_division;
 							RRemainder <= Remainder_division;
+							Remainder <= Remainder_division;
 							DDone <= done_division;
 							Done <= done_division;
 							EB_overflow_div <= B_overflow_div;

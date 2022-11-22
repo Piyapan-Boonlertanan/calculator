@@ -4,6 +4,86 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "Result[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Result[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Remainder[9]",
+					"strict" : false
+				},
+				{
 					"name" : "Done",
 					"strict" : false
 				},
@@ -176,11 +256,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Operation[1]",
+					"name" : "Operation[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Operation[0]",
+					"name" : "Operation[1]",
 					"strict" : false
 				},
 				{
@@ -192,7 +272,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Start",
+					"name" : "B[4]",
 					"strict" : false
 				},
 				{
@@ -209,10 +289,6 @@
 				},
 				{
 					"name" : "B[3]",
-					"strict" : false
-				},
-				{
-					"name" : "B[4]",
 					"strict" : false
 				},
 				{
@@ -233,6 +309,10 @@
 				},
 				{
 					"name" : "A[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Start",
 					"strict" : false
 				}
 			]
